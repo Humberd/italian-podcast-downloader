@@ -16,7 +16,7 @@ gradle-app.setting
 episodes/files
 episodes/pdfs
 episodes/flashcards
-episodes/htmls
+#episodes/htmls
 
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties

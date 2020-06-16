@@ -1,0 +1,4033 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=UA-7617276-19"
+  ></script>
+  <script>window.dataLayer = window.dataLayer || [];
+
+  function gtag() {dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+  gtag('config', 'UA-7617276-19');
+  gtag('config', 'AW-1034991868');</script>
+  <!--[if IE]>
+  <script>window.location.replace('/not-supported');</script> <![endif]-->
+  <meta charset="utf-8">
+  <meta
+    name="google"
+    content="notranslate"
+  >
+  <meta
+    name="viewport"
+    content="width=device-width"
+  >
+  <link
+    rel="icon"
+    href="/favicon.ico"
+  >
+  <style>.iziToast > .iziToast-body .iziToast-inputs > input:not([type=checkbox]):not([type=radio]), .iziToast > .iziToast-body .iziToast-inputs > select {
+    position: relative;
+    display: inline-block;
+    margin: 2px;
+    border-radius: 2px;
+    border: 0;
+    padding: 4px 7px;
+    font-size: 13px;
+    letter-spacing: .02em;
+    background: rgba(0, 0, 0, .1);
+    color: #000;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .2);
+    min-height: 26px
+  }
+
+  .iziToast > .iziToast-body .iziToast-inputs > input:not([type=checkbox]):not([type=radio]):focus, .iziToast > .iziToast-body .iziToast-inputs > select:focus {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .6)
+  }
+
+  .iziToast > .iziToast-body .iziToast-buttons > a, .iziToast > .iziToast-body .iziToast-buttons > button, .iziToast > .iziToast-body .iziToast-buttons > input:not([type=checkbox]):not([type=radio]) {
+    position: relative;
+    display: inline-block;
+    margin: 2px;
+    border-radius: 2px;
+    border: 0;
+    padding: 5px 10px;
+    font-size: 12px;
+    letter-spacing: .02em;
+    cursor: pointer;
+    background: rgba(0, 0, 0, .1);
+    color: #000
+  }
+
+  .iziToast > .iziToast-body .iziToast-buttons > a:hover, .iziToast > .iziToast-body .iziToast-buttons > button:hover, .iziToast > .iziToast-body .iziToast-buttons > input:not([type=checkbox]):not([type=radio]):hover {
+    background: rgba(0, 0, 0, .2)
+  }
+
+  .iziToast > .iziToast-body .iziToast-buttons > a:focus, .iziToast > .iziToast-body .iziToast-buttons > button:focus, .iziToast > .iziToast-body .iziToast-buttons > input:not([type=checkbox]):not([type=radio]):focus {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .6)
+  }
+
+  .iziToast > .iziToast-body .iziToast-buttons > a:active, .iziToast > .iziToast-body .iziToast-buttons > button:active, .iziToast > .iziToast-body .iziToast-buttons > input:not([type=checkbox]):not([type=radio]):active {
+    top: 1px
+  }
+
+  @media only screen and (min-width: 568px) {
+    .iziToast:not(.iziToast-rtl) .iziToast-cover {
+      border-radius: 3px 0 0 3px
+    }
+  }
+
+  @-moz-keyframes iziT-revealIn {
+    0% {
+      opacity: 0;
+      transform: scale3d(.3, .3, 1)
+    }
+    to {
+      opacity: 1
+    }
+  }
+
+  @-webkit-keyframes iziT-revealIn {
+    0% {
+      opacity: 0;
+      transform: scale3d(.3, .3, 1)
+    }
+    to {
+      opacity: 1
+    }
+  }
+
+  @-o-keyframes iziT-revealIn {
+    0% {
+      opacity: 0;
+      transform: scale3d(.3, .3, 1)
+    }
+    to {
+      opacity: 1
+    }
+  }
+
+  @keyframes iziT-revealIn {
+    0% {
+      opacity: 0;
+      transform: scale3d(.3, .3, 1)
+    }
+    to {
+      opacity: 1
+    }
+  }
+
+  @-moz-keyframes iziT-slideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(50px)
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0)
+    }
+  }
+
+  @-webkit-keyframes iziT-slideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(50px)
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0)
+    }
+  }
+
+  @-o-keyframes iziT-slideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(50px)
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0)
+    }
+  }
+
+  @keyframes iziT-slideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(50px)
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0)
+    }
+  }
+
+  @-moz-keyframes iziT-bounceInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(280px)
+    }
+    50% {
+      opacity: 1;
+      transform: translateX(-20px)
+    }
+    70% {
+      transform: translateX(10px)
+    }
+    to {
+      transform: translateX(0)
+    }
+  }
+
+  @-webkit-keyframes iziT-bounceInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(280px)
+    }
+    50% {
+      opacity: 1;
+      transform: translateX(-20px)
+    }
+    70% {
+      transform: translateX(10px)
+    }
+    to {
+      transform: translateX(0)
+    }
+  }
+
+  @-o-keyframes iziT-bounceInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(280px)
+    }
+    50% {
+      opacity: 1;
+      transform: translateX(-20px)
+    }
+    70% {
+      transform: translateX(10px)
+    }
+    to {
+      transform: translateX(0)
+    }
+  }
+
+  @keyframes iziT-bounceInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(280px)
+    }
+    50% {
+      opacity: 1;
+      transform: translateX(-20px)
+    }
+    70% {
+      transform: translateX(10px)
+    }
+    to {
+      transform: translateX(0)
+    }
+  }
+
+  @-moz-keyframes iziT-bounceInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(-280px)
+    }
+    50% {
+      opacity: 1;
+      transform: translateX(20px)
+    }
+    70% {
+      transform: translateX(-10px)
+    }
+    to {
+      transform: translateX(0)
+    }
+  }
+
+  @-webkit-keyframes iziT-bounceInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(-280px)
+    }
+    50% {
+      opacity: 1;
+      transform: translateX(20px)
+    }
+    70% {
+      transform: translateX(-10px)
+    }
+    to {
+      transform: translateX(0)
+    }
+  }
+
+  @-o-keyframes iziT-bounceInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(-280px)
+    }
+    50% {
+      opacity: 1;
+      transform: translateX(20px)
+    }
+    70% {
+      transform: translateX(-10px)
+    }
+    to {
+      transform: translateX(0)
+    }
+  }
+
+  @keyframes iziT-bounceInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(-280px)
+    }
+    50% {
+      opacity: 1;
+      transform: translateX(20px)
+    }
+    70% {
+      transform: translateX(-10px)
+    }
+    to {
+      transform: translateX(0)
+    }
+  }
+
+  @-moz-keyframes iziT-bounceInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-200px)
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(10px)
+    }
+    70% {
+      transform: translateY(-5px)
+    }
+    to {
+      transform: translateY(0)
+    }
+  }
+
+  @-webkit-keyframes iziT-bounceInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-200px)
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(10px)
+    }
+    70% {
+      transform: translateY(-5px)
+    }
+    to {
+      transform: translateY(0)
+    }
+  }
+
+  @-o-keyframes iziT-bounceInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-200px)
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(10px)
+    }
+    70% {
+      transform: translateY(-5px)
+    }
+    to {
+      transform: translateY(0)
+    }
+  }
+
+  @keyframes iziT-bounceInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-200px)
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(10px)
+    }
+    70% {
+      transform: translateY(-5px)
+    }
+    to {
+      transform: translateY(0)
+    }
+  }
+
+  @-moz-keyframes iziT-bounceInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(200px)
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(-10px)
+    }
+    70% {
+      transform: translateY(5px)
+    }
+    to {
+      transform: translateY(0)
+    }
+  }
+
+  @-webkit-keyframes iziT-bounceInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(200px)
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(-10px)
+    }
+    70% {
+      transform: translateY(5px)
+    }
+    to {
+      transform: translateY(0)
+    }
+  }
+
+  @-o-keyframes iziT-bounceInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(200px)
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(-10px)
+    }
+    70% {
+      transform: translateY(5px)
+    }
+    to {
+      transform: translateY(0)
+    }
+  }
+
+  @keyframes iziT-bounceInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(200px)
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(-10px)
+    }
+    70% {
+      transform: translateY(5px)
+    }
+    to {
+      transform: translateY(0)
+    }
+  }
+
+  @-moz-keyframes iziT-fadeIn {
+    0% {
+      opacity: 0
+    }
+    to {
+      opacity: 1
+    }
+  }
+
+  @-webkit-keyframes iziT-fadeIn {
+    0% {
+      opacity: 0
+    }
+    to {
+      opacity: 1
+    }
+  }
+
+  @-o-keyframes iziT-fadeIn {
+    0% {
+      opacity: 0
+    }
+    to {
+      opacity: 1
+    }
+  }
+
+  @keyframes iziT-fadeIn {
+    0% {
+      opacity: 0
+    }
+    to {
+      opacity: 1
+    }
+  }
+
+  @-moz-keyframes iziT-fadeInUp {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0)
+    }
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none
+    }
+  }
+
+  @-webkit-keyframes iziT-fadeInUp {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0)
+    }
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none
+    }
+  }
+
+  @-o-keyframes iziT-fadeInUp {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0)
+    }
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none
+    }
+  }
+
+  @keyframes iziT-fadeInUp {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0)
+    }
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none
+    }
+  }
+
+  @-moz-keyframes iziT-fadeInDown {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0)
+    }
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none
+    }
+  }
+
+  @-webkit-keyframes iziT-fadeInDown {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0)
+    }
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none
+    }
+  }
+
+  @-o-keyframes iziT-fadeInDown {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0)
+    }
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none
+    }
+  }
+
+  @keyframes iziT-fadeInDown {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0)
+    }
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none
+    }
+  }
+
+  @-moz-keyframes iziT-fadeInLeft {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(300px, 0, 0);
+      transform: translate3d(300px, 0, 0)
+    }
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none
+    }
+  }
+
+  @-webkit-keyframes iziT-fadeInLeft {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(300px, 0, 0);
+      transform: translate3d(300px, 0, 0)
+    }
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none
+    }
+  }
+
+  @-o-keyframes iziT-fadeInLeft {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(300px, 0, 0);
+      transform: translate3d(300px, 0, 0)
+    }
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none
+    }
+  }
+
+  @keyframes iziT-fadeInLeft {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(300px, 0, 0);
+      transform: translate3d(300px, 0, 0)
+    }
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none
+    }
+  }
+
+  @-moz-keyframes iziT-fadeInRight {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(-300px, 0, 0);
+      transform: translate3d(-300px, 0, 0)
+    }
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none
+    }
+  }
+
+  @-webkit-keyframes iziT-fadeInRight {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(-300px, 0, 0);
+      transform: translate3d(-300px, 0, 0)
+    }
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none
+    }
+  }
+
+  @-o-keyframes iziT-fadeInRight {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(-300px, 0, 0);
+      transform: translate3d(-300px, 0, 0)
+    }
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none
+    }
+  }
+
+  @keyframes iziT-fadeInRight {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(-300px, 0, 0);
+      transform: translate3d(-300px, 0, 0)
+    }
+    to {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none
+    }
+  }
+
+  @-moz-keyframes iziT-flipInX {
+    0% {
+      -webkit-transform: perspective(400px) rotateX(90deg);
+      transform: perspective(400px) rotateX(90deg);
+      opacity: 0
+    }
+    40% {
+      -webkit-transform: perspective(400px) rotateX(-20deg);
+      transform: perspective(400px) rotateX(-20deg)
+    }
+    60% {
+      -webkit-transform: perspective(400px) rotateX(10deg);
+      transform: perspective(400px) rotateX(10deg);
+      opacity: 1
+    }
+    80% {
+      -webkit-transform: perspective(400px) rotateX(-5deg);
+      transform: perspective(400px) rotateX(-5deg)
+    }
+    to {
+      -webkit-transform: perspective(400px);
+      transform: perspective(400px)
+    }
+  }
+
+  @-webkit-keyframes iziT-flipInX {
+    0% {
+      -webkit-transform: perspective(400px) rotateX(90deg);
+      transform: perspective(400px) rotateX(90deg);
+      opacity: 0
+    }
+    40% {
+      -webkit-transform: perspective(400px) rotateX(-20deg);
+      transform: perspective(400px) rotateX(-20deg)
+    }
+    60% {
+      -webkit-transform: perspective(400px) rotateX(10deg);
+      transform: perspective(400px) rotateX(10deg);
+      opacity: 1
+    }
+    80% {
+      -webkit-transform: perspective(400px) rotateX(-5deg);
+      transform: perspective(400px) rotateX(-5deg)
+    }
+    to {
+      -webkit-transform: perspective(400px);
+      transform: perspective(400px)
+    }
+  }
+
+  @-o-keyframes iziT-flipInX {
+    0% {
+      -webkit-transform: perspective(400px) rotateX(90deg);
+      transform: perspective(400px) rotateX(90deg);
+      opacity: 0
+    }
+    40% {
+      -webkit-transform: perspective(400px) rotateX(-20deg);
+      transform: perspective(400px) rotateX(-20deg)
+    }
+    60% {
+      -webkit-transform: perspective(400px) rotateX(10deg);
+      transform: perspective(400px) rotateX(10deg);
+      opacity: 1
+    }
+    80% {
+      -webkit-transform: perspective(400px) rotateX(-5deg);
+      transform: perspective(400px) rotateX(-5deg)
+    }
+    to {
+      -webkit-transform: perspective(400px);
+      transform: perspective(400px)
+    }
+  }
+
+  @keyframes iziT-flipInX {
+    0% {
+      -webkit-transform: perspective(400px) rotateX(90deg);
+      transform: perspective(400px) rotateX(90deg);
+      opacity: 0
+    }
+    40% {
+      -webkit-transform: perspective(400px) rotateX(-20deg);
+      transform: perspective(400px) rotateX(-20deg)
+    }
+    60% {
+      -webkit-transform: perspective(400px) rotateX(10deg);
+      transform: perspective(400px) rotateX(10deg);
+      opacity: 1
+    }
+    80% {
+      -webkit-transform: perspective(400px) rotateX(-5deg);
+      transform: perspective(400px) rotateX(-5deg)
+    }
+    to {
+      -webkit-transform: perspective(400px);
+      transform: perspective(400px)
+    }
+  }
+
+  @-moz-keyframes iziT-fadeOut {
+    0% {
+      opacity: 1
+    }
+    to {
+      opacity: 0
+    }
+  }
+
+  @-webkit-keyframes iziT-fadeOut {
+    0% {
+      opacity: 1
+    }
+    to {
+      opacity: 0
+    }
+  }
+
+  @-o-keyframes iziT-fadeOut {
+    0% {
+      opacity: 1
+    }
+    to {
+      opacity: 0
+    }
+  }
+
+  @keyframes iziT-fadeOut {
+    0% {
+      opacity: 1
+    }
+    to {
+      opacity: 0
+    }
+  }
+
+  @-moz-keyframes iziT-fadeOutDown {
+    0% {
+      opacity: 1
+    }
+    to {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0)
+    }
+  }
+
+  @-webkit-keyframes iziT-fadeOutDown {
+    0% {
+      opacity: 1
+    }
+    to {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0)
+    }
+  }
+
+  @-o-keyframes iziT-fadeOutDown {
+    0% {
+      opacity: 1
+    }
+    to {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0)
+    }
+  }
+
+  @keyframes iziT-fadeOutDown {
+    0% {
+      opacity: 1
+    }
+    to {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0)
+    }
+  }
+
+  @-moz-keyframes iziT-fadeOutUp {
+    0% {
+      opacity: 1
+    }
+    to {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0)
+    }
+  }
+
+  @-webkit-keyframes iziT-fadeOutUp {
+    0% {
+      opacity: 1
+    }
+    to {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0)
+    }
+  }
+
+  @-o-keyframes iziT-fadeOutUp {
+    0% {
+      opacity: 1
+    }
+    to {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0)
+    }
+  }
+
+  @keyframes iziT-fadeOutUp {
+    0% {
+      opacity: 1
+    }
+    to {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0)
+    }
+  }
+
+  @-moz-keyframes iziT-fadeOutLeft {
+    0% {
+      opacity: 1
+    }
+    to {
+      opacity: 0;
+      -webkit-transform: translate3d(-200px, 0, 0);
+      transform: translate3d(-200px, 0, 0)
+    }
+  }
+
+  @-webkit-keyframes iziT-fadeOutLeft {
+    0% {
+      opacity: 1
+    }
+    to {
+      opacity: 0;
+      -webkit-transform: translate3d(-200px, 0, 0);
+      transform: translate3d(-200px, 0, 0)
+    }
+  }
+
+  @-o-keyframes iziT-fadeOutLeft {
+    0% {
+      opacity: 1
+    }
+    to {
+      opacity: 0;
+      -webkit-transform: translate3d(-200px, 0, 0);
+      transform: translate3d(-200px, 0, 0)
+    }
+  }
+
+  @keyframes iziT-fadeOutLeft {
+    0% {
+      opacity: 1
+    }
+    to {
+      opacity: 0;
+      -webkit-transform: translate3d(-200px, 0, 0);
+      transform: translate3d(-200px, 0, 0)
+    }
+  }
+
+  @-moz-keyframes iziT-fadeOutRight {
+    0% {
+      opacity: 1
+    }
+    to {
+      opacity: 0;
+      -webkit-transform: translate3d(200px, 0, 0);
+      transform: translate3d(200px, 0, 0)
+    }
+  }
+
+  @-webkit-keyframes iziT-fadeOutRight {
+    0% {
+      opacity: 1
+    }
+    to {
+      opacity: 0;
+      -webkit-transform: translate3d(200px, 0, 0);
+      transform: translate3d(200px, 0, 0)
+    }
+  }
+
+  @-o-keyframes iziT-fadeOutRight {
+    0% {
+      opacity: 1
+    }
+    to {
+      opacity: 0;
+      -webkit-transform: translate3d(200px, 0, 0);
+      transform: translate3d(200px, 0, 0)
+    }
+  }
+
+  @keyframes iziT-fadeOutRight {
+    0% {
+      opacity: 1
+    }
+    to {
+      opacity: 0;
+      -webkit-transform: translate3d(200px, 0, 0);
+      transform: translate3d(200px, 0, 0)
+    }
+  }
+
+  @-moz-keyframes iziT-flipOutX {
+    0% {
+      -webkit-transform: perspective(400px);
+      transform: perspective(400px)
+    }
+    30% {
+      -webkit-transform: perspective(400px) rotateX(-20deg);
+      transform: perspective(400px) rotateX(-20deg);
+      opacity: 1
+    }
+    to {
+      -webkit-transform: perspective(400px) rotateX(90deg);
+      transform: perspective(400px) rotateX(90deg);
+      opacity: 0
+    }
+  }
+
+  @-webkit-keyframes iziT-flipOutX {
+    0% {
+      -webkit-transform: perspective(400px);
+      transform: perspective(400px)
+    }
+    30% {
+      -webkit-transform: perspective(400px) rotateX(-20deg);
+      transform: perspective(400px) rotateX(-20deg);
+      opacity: 1
+    }
+    to {
+      -webkit-transform: perspective(400px) rotateX(90deg);
+      transform: perspective(400px) rotateX(90deg);
+      opacity: 0
+    }
+  }
+
+  @-o-keyframes iziT-flipOutX {
+    0% {
+      -webkit-transform: perspective(400px);
+      transform: perspective(400px)
+    }
+    30% {
+      -webkit-transform: perspective(400px) rotateX(-20deg);
+      transform: perspective(400px) rotateX(-20deg);
+      opacity: 1
+    }
+    to {
+      -webkit-transform: perspective(400px) rotateX(90deg);
+      transform: perspective(400px) rotateX(90deg);
+      opacity: 0
+    }
+  }
+
+  @keyframes iziT-flipOutX {
+    0% {
+      -webkit-transform: perspective(400px);
+      transform: perspective(400px)
+    }
+    30% {
+      -webkit-transform: perspective(400px) rotateX(-20deg);
+      transform: perspective(400px) rotateX(-20deg);
+      opacity: 1
+    }
+    to {
+      -webkit-transform: perspective(400px) rotateX(90deg);
+      transform: perspective(400px) rotateX(90deg);
+      opacity: 0
+    }
+  }
+
+  .ui-slider {
+    position: relative;
+    text-align: left
+  }
+
+  .ui-slider .ui-slider-handle {
+    position: absolute;
+    z-index: 2;
+    width: 1.2em;
+    height: 1.2em;
+    cursor: default;
+    -ms-touch-action: none;
+    touch-action: none
+  }
+
+  .ui-slider .ui-slider-range {
+    position: absolute;
+    z-index: 1;
+    font-size: .7em;
+    display: block;
+    border: 0;
+    background-position: 0 0
+  }
+
+  .ui-slider-horizontal {
+    height: .8em
+  }
+
+  .ui-slider-horizontal .ui-slider-handle {
+    top: -.3em;
+    margin-left: -.6em
+  }
+
+  .ui-slider-horizontal .ui-slider-range {
+    top: 0;
+    height: 100%
+  }
+
+  .ui-slider-horizontal .ui-slider-range-min {
+    left: 0
+  }
+
+  table td {
+    padding: 9px 10px;
+    text-align: left
+  }
+
+  .input {
+    appearance: none;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 0 .9rem;
+    padding: .6rem;
+    background: #fff;
+    border: 1px solid #bbb;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, .05);
+    border-radius: 0;
+    outline: none;
+    resize: vertical;
+    transition: border-color .3s ease
+  }
+
+  .input:focus {
+    border-color: #0c69d6
+  }
+
+  .slick-slider {
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent
+  }
+
+  .slick-list, .slick-slider {
+    position: relative;
+    display: block
+  }
+
+  .slick-list {
+    overflow: hidden;
+    margin: 0;
+    padding: 0
+  }
+
+  .slick-list:focus {
+    outline: none
+  }
+
+  .slick-slider .slick-list, .slick-slider .slick-track {
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0)
+  }
+
+  .slick-track {
+    position: relative;
+    left: 0;
+    top: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+  }
+
+  .slick-track:after, .slick-track:before {
+    content: "";
+    display: table
+  }
+
+  .slick-track:after {
+    clear: both
+  }
+
+  .slick-slide {
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    display: none
+  }
+
+  .slick-slide img {
+    display: block
+  }
+
+  .slick-initialized .slick-slide {
+    display: block
+  }</style>
+  <link
+    rel="stylesheet"
+    href="/assets/A.root.c2bdad3e512683d29bfe814922bd35d0.min.css.pagespeed.cf._HJPXBw6VQ.css"
+  >
+  <title>Intermediate Italian - Episode 373: March 05, 2020</title></head>
+<body class="_episode">
+<div class="overlay-320px">Screen width of at least 320px is required!</div>
+<div class="body-content-wrapper">
+  <div class="header-nav-wrapper">
+    <header id="header">
+      <div class="container">
+        <div class="header-body">
+          <div class="filters"><a
+            href="/home"
+            class="logo"
+          ></a>
+            <div class="links"><a
+              href="/home"
+              class=""
+            >Home</a> <a
+              href="/home/news"
+              class=""
+            >News</a> <a
+              href="/home/courses"
+              class=""
+            >Courses</a> <a
+              href="/home/series"
+              class=""
+            >Series</a></div>
+            <div class="dropdown"><select class="filter-dropdown">
+              <option value="/home">Home</option>
+              <option value="/home/news">News</option>
+              <option value="/home/courses">Courses</option>
+              <option value="/home/series">Series</option>
+            </select></div>
+          </div>
+          <div><span class="user-hello"> Ciao Maciej! </span>
+            <div
+              class="header-menu-button"
+              style="margin-left: 1em;"
+            >
+              <div id="nav_button">
+                <div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav
+      id="nav"
+      class="container"
+    >
+      <div class="navigation link-links">
+        <div class="menu-container">
+          <div class="menu-heading toggle">
+            <div>MY ACCOUNT</div>
+            <div class="toggle-icon"></div>
+          </div>
+          <div class="menu-items">
+            <div class="menu-item"><a href="/member"> My Profile </a></div>
+            <div class="menu-item"><a href="/member/history"> Payment History </a></div>
+            <div class="menu-item"><a href="/member/coupon"> Apply coupon </a></div>
+            <div class="menu-item"><a href="/member/cancel"> Cancel Recurring Payments </a></div>
+          </div>
+          <div class="separator"></div>
+          <div class="menu-heading"><a href="/subscription-rates"> SUBSCRIPTION RATE </a></div>
+          <div class="menu-heading"><a href="/educational-rates"> EDUCATIONAL RATE </a></div>
+          <div class="menu-heading"><a href="/gift-subscriptions"> GIFT SUBSCRIPTIONS </a></div>
+          <div class="menu-heading toggle">
+            <div>OTHER LANGUAGES</div>
+            <div class="toggle-icon"></div>
+          </div>
+          <div class="menu-items">
+            <div class="menu-item"><a
+              href="https://www.newsinslowspanish.com"
+              target="_blank"
+            > Spanish (Spain) </a></div>
+            <div class="menu-item"><a
+              href="https://www.newsinslowspanish.com/latino"
+              target="_blank"
+            > Spanish (Latino) </a></div>
+            <div class="menu-item"><a
+              href="https://www.newsinslowfrench.com"
+              target="_blank"
+            > French </a></div>
+            <div class="menu-item"><a
+              href="https://www.newsinslowgerman.com"
+              target="_blank"
+            > German </a></div>
+          </div>
+          <div class="menu-heading toggle">
+            <div>ABOUT US</div>
+            <div class="toggle-icon"></div>
+          </div>
+          <div class="menu-items">
+            <div class="menu-item"><a href="/contact-us"> Contact Us </a></div>
+            <div class="menu-item"><a href="/testimonials"> Testimonials </a></div>
+            <div class="menu-item"><a href="/privacy-policy"> Privacy Policy </a></div>
+            <div class="menu-item"><a href="/terms-of-use"> Terms of Use </a></div>
+            <div class="menu-item"><a href="/refund-policy"> Refund Policy </a></div>
+          </div>
+          <div class="menu-heading alexa-menu-item"><a href="/alexa">ALEXA</a></div>
+          <div class="menu-heading ca-menu-item"><a href="/color-adjustments">ADJUST COLORS</a></div>
+          <div class="separator"></div>
+          <div class="menu-heading"><a href="/logout">LOG OUT</a></div>
+          <div class="separator"></div>
+          <div
+            class="menu-heading"
+            style="align: left"
+          ><a
+            class="app-icon-ios"
+            style="margin-left: 0"
+            href="https://apps.apple.com/us/app/l360/id1464580750"
+            target="_blank"
+          ></a></div>
+          <div class="menu-heading"><a
+            class="app-icon-android"
+            style="margin-left: 0"
+            href="https://play.google.com/store/apps/details?id=com.linguistica360.linguistica.member"
+            target="_blank"
+          ></a></div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div class="body-content">
+    <div class="main-container ">
+      <main
+        id="main"
+        class="nowhite seriesitem"
+      >
+        <div class="netflix-loading">
+          <div class="loading"></div>
+        </div>
+        <div class="netflix-loading-content">
+          <div class="netflix-line-row">
+            <div class="netflix-title-row"><h3><span class="main-title"> </span></h3></div>
+            <div class="netflix-line-wrapper">
+              <div class="netflix-line-toolbar"><span
+                class="loading right hidden"
+                style="margin-right: 1em; margin-top: -2em;"
+              ></span></div>
+              <div class="netflix-arrows-wrapper">
+                <div class="netflix-arrows">
+                  <div class="netflix-arrow left"></div>
+                  <div class="netflix-arrow right"></div>
+                </div>
+              </div>
+              <div
+                class="netflix-line"
+                data-count="9"
+              >
+                <div class="netflix-item-wrapper guts"><a href="/series/episode/391">
+                  <div class="netflix-item episode">
+                    <div class="netflix-thumbnail"><img
+                      class="lozad"
+                      data-src="https://nsc.newsinslow.com/images/episodes/nsi/covid19/recorded-from-home-w2.jpg"
+                    >
+                      <div class="thumbnail-content-wrapper guts"><h4></h4></div>
+                    </div>
+                  </div>
+                </a>
+                  <div class="thumbnail-date"><span class="clock-date">2 April 2020</span></div>
+                  <div class="thumbnail-desc"><p>Episode #377</p></div>
+                </div>
+                <div class="netflix-item-wrapper guts"><a href="/series/episode/390">
+                  <div class="netflix-item episode">
+                    <div class="netflix-thumbnail"><img
+                      class="lozad"
+                      data-src="https://nsc.newsinslow.com/images/episodes/nsi/covid19/recorded-from-home-w1.jpg"
+                    >
+                      <div class="thumbnail-content-wrapper guts"><h4></h4></div>
+                    </div>
+                  </div>
+                </a>
+                  <div class="thumbnail-date"><span class="clock-date">26 March 2020</span></div>
+                  <div class="thumbnail-desc"><p>Episode #376</p></div>
+                </div>
+                <div class="netflix-item-wrapper guts"><a href="/series/episode/389">
+                  <div class="netflix-item episode">
+                    <div class="netflix-thumbnail"><img
+                      class="lozad"
+                      data-src="https://nsc.newsinslow.com/images/episodes/nsi/milena-stefano/2.jpg"
+                    >
+                      <div class="thumbnail-content-wrapper guts"><h4></h4></div>
+                    </div>
+                  </div>
+                </a>
+                  <div class="thumbnail-date"><span class="clock-date">19 March 2020</span></div>
+                  <div class="thumbnail-desc"><p>Episode #375</p></div>
+                </div>
+                <div class="netflix-item-wrapper guts"><a href="/series/episode/388">
+                  <div class="netflix-item episode">
+                    <div class="netflix-thumbnail"><img
+                      class="lozad"
+                      data-src="https://nsc.newsinslow.com/images/episodes/nsi/mario-renzo/1.jpg"
+                    >
+                      <div class="thumbnail-content-wrapper guts"><h4></h4></div>
+                    </div>
+                  </div>
+                </a>
+                  <div class="thumbnail-date"><span class="clock-date">12 March 2020</span></div>
+                  <div class="thumbnail-desc"><p>Episode #374</p></div>
+                </div>
+                <div class="netflix-item-wrapper active guts"><a href="/series/episode/387">
+                  <div class="netflix-item episode">
+                    <div class="netflix-thumbnail"><img
+                      class="lozad"
+                      data-src="https://nsc.newsinslow.com/images/episodes/nsi/romina-stefano/6.jpg"
+                    >
+                      <div class="thumbnail-content-wrapper guts"><h4></h4></div>
+                    </div>
+                  </div>
+                </a>
+                  <div class="thumbnail-date"><span class="clock-date">5 March 2020</span></div>
+                  <div class="thumbnail-desc"><p>Episode #373</p></div>
+                </div>
+                <div class="netflix-item-wrapper guts"><a href="/series/episode/386">
+                  <div class="netflix-item episode">
+                    <div class="netflix-thumbnail"><img
+                      class="lozad"
+                      data-src="https://nsc.newsinslow.com/images/episodes/nsi/romina-mario/1.jpg"
+                    >
+                      <div class="thumbnail-content-wrapper guts"><h4></h4></div>
+                    </div>
+                  </div>
+                </a>
+                  <div class="thumbnail-date"><span class="clock-date">27 February 2020</span></div>
+                  <div class="thumbnail-desc"><p>Episode #372</p></div>
+                </div>
+                <div class="netflix-item-wrapper guts"><a href="/series/episode/385">
+                  <div class="netflix-item episode">
+                    <div class="netflix-thumbnail"><img
+                      class="lozad"
+                      data-src="https://nsc.newsinslow.com/images/episodes/nsi/romina-stefano/4.jpg"
+                    >
+                      <div class="thumbnail-content-wrapper guts"><h4></h4></div>
+                    </div>
+                  </div>
+                </a>
+                  <div class="thumbnail-date"><span class="clock-date">20 February 2020</span></div>
+                  <div class="thumbnail-desc"><p>Episode #371</p></div>
+                </div>
+                <div class="netflix-item-wrapper guts"><a href="/series/episode/384">
+                  <div class="netflix-item episode">
+                    <div class="netflix-thumbnail"><img
+                      class="lozad"
+                      data-src="https://nsc.newsinslow.com/images/episodes/nsi/romina-stefano/7.jpg"
+                    >
+                      <div class="thumbnail-content-wrapper guts"><h4></h4></div>
+                    </div>
+                  </div>
+                </a>
+                  <div class="thumbnail-date"><span class="clock-date">13 February 2020</span></div>
+                  <div class="thumbnail-desc"><p>Episode #370</p></div>
+                </div>
+                <div class="netflix-item-wrapper guts"><a href="/series/episode/383">
+                  <div class="netflix-item episode">
+                    <div class="netflix-thumbnail"><img
+                      class="lozad"
+                      data-src="https://nsc.newsinslow.com/images/episodes/nsi/romina-stefano/3.jpg"
+                    >
+                      <div class="thumbnail-content-wrapper guts"><h4></h4></div>
+                    </div>
+                  </div>
+                </a>
+                  <div class="thumbnail-date"><span class="clock-date">6 February 2020</span></div>
+                  <div class="thumbnail-desc"><p>Episode #369</p></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="tile-container">
+            <div class="controls ">
+              <div class="timer-bar"><span class="player-speed">Speed <span class="speed">1.0</span>x</span>
+                <div class="timer"><span class="timer-time"></span> / <span class="timer-duration"></span></div>
+              </div>
+              <div class="audio-progress">
+                <div class="draggable"></div>
+                <div class="bar"></div>
+              </div>
+              <div class="toolbar">
+                <div><a class="player-control player-volume"></a>
+                  <div class="player-volume-wrapper">
+                    <div class="volume-slider"></div>
+                  </div>
+                </div>
+                <div
+                  class="player"
+                  data-src="https://nsi-downloads.newsinslowitalian.com/2020/nsi373.mp3"
+                  data-cutoff="false"
+                ><a class="player-control player-rewind"></a>
+                  <button class="player-control player-toggle player-play"></button>
+                  <a class="player-control player-forward"></a></div>
+                <div><a
+                  href="/intermediate-italian/pdf/373/episode.pdf"
+                  target="_blank"
+                  class="download-pdf"
+                  title="Download PDF"
+                ></a></div>
+              </div>
+            </div>
+            <div class="container bc-container">
+              <nav class="breadcrumbs">
+                <ul class="list"></ul>
+                <div class="flashcards-wrapper"><span class="flashcards dropdown">
+                  <div><input
+                    type="checkbox"
+                    title="Download Flashcard"
+                  >
+                    <ul class="right">
+                      <li><a href="/intermediate-italian/373/flashcard.csv">CSV</a></li>
+                      <li><a href="https://nsi-flashcards.newsinslowitalian.com/episode373_flashcard.pdf">PDF</a></li>
+                    </ul>
+                  </div>
+                  <span>Flashcard</span> </span></div>
+              </nav>
+            </div>
+            <div class="content-container text-content transcript-content">
+              <div class="content-title series-title-row"><h1>Introduction</h1>
+                <div><a
+                  class="audio-anchor"
+                  data-time="0"
+                ></a></div>
+              </div>
+              <table class="dialog-table">
+                <tr class="toprow">
+                  <td
+                    class="leftcol"
+                    valign="top"
+                  >Romina:
+                  </td>
+                  <td class="data"> È giovedì 5 marzo 2020! <span data-tooltip="Welcome">Benvenuti</span> al nostro
+                    programma <span data-tooltip="weekly">settimanale</span> News in Slow Italian! Un saluto a tutti i
+                    nostri <span data-tooltip="listeners">ascoltatori</span>! Ciao Stefano.
+                  </td>
+                </tr>
+                <tr class="toprow">
+                  <td
+                    class="leftcol"
+                    valign="top"
+                  >Stefano:
+                  </td>
+                  <td class="data"> Ciao, Romina! Un saluto a tutti!</td>
+                </tr>
+                <tr class="toprow">
+                  <td
+                    class="leftcol"
+                    valign="top"
+                  >Romina:
+                  </td>
+                  <td class="data"> Nella prima parte del nostro programma, <span data-tooltip="we will discuss">discuteremo</span>
+                    <span data-tooltip="of some">di alcuni</span> degli <span data-tooltip="events">avvenimenti</span>
+                    internazionali più importanti di questa settimana.
+                    <span data-tooltip="we will begin">Cominceremo</span> con il rifiuto degli
+                    <span data-tooltip="deal">accordi</span> di pace da parte dei talebani, alcuni giorni dopo
+                    <span data-tooltip="the sign">la firma</span> del trattato. Subito dopo, parleremo della
+                    <span data-tooltip="proposal">proposta</span> del Presidente russo, Vladimir Putin,
+                    <span data-tooltip="to introduce">di introdurre</span> un pacchetto di
+                    <span data-tooltip="amendments">riforme</span> costituzionali. Poi, vi illustreremo i risultati di
+                    uno studio, pubblicato sulla <span data-tooltip="journal">rivista</span> <i>Royal Society Open
+                      Science</i>, che <span data-tooltip="show">mostrano</span> come <span data-tooltip="seagulls">i
+                      gabbiani</span> siano più attratti dal cibo, <span data-tooltip="touched">toccato</span>
+                    <span data-tooltip="previously">in precedenza</span> dagli umani. Infine,
+                    <span data-tooltip="we will discuss">discuteremo</span> di un articolo, pubblicato lo scorso 28
+                    febbraio dalla BBC, secondo cui <span data-tooltip="an increasing number of">sempre più</span>
+                    compagnie preferiscono usare <span data-tooltip="computer algorithms">algoritmi informatici</span>,
+                    per <span data-tooltip="to pre-screen">fare una prima selezione</span> dei
+                    <span data-tooltip="applicants">candidati</span>.
+                  </td>
+                </tr>
+                <tr class="toprow">
+                  <td
+                    class="leftcol"
+                    valign="top"
+                  >Stefano:
+                  </td>
+                  <td class="data"> Molto interessante! Nella seconda parte della trasmissione, nel segmento <i>Trending
+                    in Italy</i>, <span data-tooltip="we will focus">ci occuperemo</span> di notizie italiane.
+                  </td>
+                </tr>
+                <tr class="toprow">
+                  <td
+                    class="leftcol"
+                    valign="top"
+                  >Romina:
+                  </td>
+                  <td class="data"> Questa settimana discuteremo <span data-tooltip="about the under-founding">del sotto
+                    finanziamento</span> della ricerca italiana, dopo che <span data-tooltip="a team">un gruppo</span>
+                    di ricercatrici del laboratorio di virologia dell’ospedale Spallanzani di Roma
+                    <span data-tooltip="isolated">ha isolato</span> <span data-tooltip="the genome">il genoma</span> del
+                    nuovo coronavirus. Subito dopo, <span data-tooltip="we will talk">vi parleremo</span> della
+                    <span data-tooltip="controversial">discussa</span> sentenza di un giudice
+                    <span data-tooltip="of the court">del tribunale</span> di Palermo, che ha deciso
+                    <span data-tooltip="to impose">di imporre</span> regole molto
+                    <span data-tooltip="strict">ferree</span> alle attività
+                    <span data-tooltip="recreational">ludiche</span> dell’oratorio <span data-tooltip="of the parish">della
+                      parrocchia</span> Santa Teresa del Bambin Gesù.
+                  </td>
+                </tr>
+                <tr class="toprow">
+                  <td
+                    class="leftcol"
+                    valign="top"
+                  >Stefano:
+                  </td>
+                  <td class="data"> Perfetto, Romina.</td>
+                </tr>
+                <tr class="toprow">
+                  <td
+                    class="leftcol"
+                    valign="top"
+                  >Romina:
+                  </td>
+                  <td class="data"> Grazie, Stefano. <span data-tooltip="Let’s start">Diamo il via</span> alla
+                    trasmissione con le notizie internazionali!
+                  </td>
+                </tr>
+              </table>
+              <div class="content-title series-title-row"><h1><a name="0">I talebani
+                <span data-tooltip="are backing off">fanno marcia indietro</span> rispetto al punto
+                <span data-tooltip="main">principale</span> dell’<span data-tooltip="deal">accordo</span> di pace,
+                <span data-tooltip="signed">firmato</span> pochi giorni prima</a></h1>
+                <div><a
+                  class="audio-anchor"
+                  data-time="157"
+                ></a> <a
+                  class="pronunciation-button a"
+                  title="Pronunciation Practice"
+                  href="/series/pronunciation/387/1?back=%2Fseries%2Fepisode%2F387%230"
+                ></a></div>
+              </div>
+              <div style="margin-top: 0.6em; margin-bottom: 0.6em;"><span class="clock-date">5 March 2020</span></div>
+              <div class="content-image"><img
+                src="https://nsc.newsinslow.com/images/news/2020/10/eu1.jpg"
+                alt="I talebani fanno marcia indietro rispetto al punto principale dell’accordo di pace, firmato pochi giorni prima"
+              >
+                <div class="image-credits">ono Photography / Shutterstock.com</div>
+              </div>
+              <div class="content content-styles"><p> Lunedì, i talebani hanno annunciato che
+                <span data-tooltip="peace talks">i colloqui di pace</span> con il governo afgano
+                <span data-tooltip="would not happen">non inizieranno</span>, se 5.000 dei loro 10.000
+                <span data-tooltip="fighters">combattenti</span>, attualmente
+                <span data-tooltip="detained">detenuti</span> nelle prigioni afgane,
+                <span data-tooltip="would not be released">non verranno rilasciati</span>. I negoziati di pace tra
+                governo <span data-tooltip="Afghan">afgano</span> e talebani <span data-tooltip="were">erano</span> uno
+                dei <span data-tooltip="key points">punti chiave</span> “dell’accordo di pace”,
+                <span data-tooltip="signed">sottoscritto</span> sabato scorso in Qatar, da Stati Uniti e i talebani,
+                che, però, hanno successivamente dichiarato che <span data-tooltip="fighting">i combattimenti</span>
+                <span data-tooltip="would resume">riprenderanno</span>, ma <span data-tooltip="would not target">non
+                  interesseranno</span> le forze internazionali.<br><br><!--[*** NO-SUBSCRIPTION CUTOFF ***]-->Gli Stati
+                Uniti e <span data-tooltip="its allies">i loro alleati</span> NATO <span data-tooltip="agreed">hanno
+                  acconsentito</span> a lasciare l’Afganistan entro 14 mesi, se i talebani
+                <span data-tooltip="will honor">rispetteranno</span> la loro parte dell’<span data-tooltip="agreement">accordo</span>,
+                che prevede <span data-tooltip="talks">i negoziati</span> con il governo afgano e la promessa che la
+                violenza <span data-tooltip="remains low">si mantenga a livelli contenuti</span>. Nonostante la
+                settimana <span data-tooltip="before the agreement">prima dell’accordo</span>,
+                <span data-tooltip="there was">ci sia stata</span> una “riduzione della violenza” da parte delle forze
+                talebane, martedì, però, gli episodi di violenza <span data-tooltip="resumed">sono ripresi</span>. I
+                talebani <span data-tooltip="carried out">hanno sferrato</span> 33 attacchi, in cui
+                <span data-tooltip="were killed">sono rimasti uccisi</span> 6 civili. Il Presidente Trump, per la prima
+                volta nella storia americana, <span data-tooltip="spoke on the phone">ha parlato al telefono</span> con
+                <span data-tooltip="the chief negotiator">il capo negoziatore</span> dei talebani, dichiarando,
+                successivamente, di avere avuto “<span data-tooltip="a very good">un’eccellente</span> conversazione”.
+                <span data-tooltip="The deal">Il patto</span> prevede anche
+                <span data-tooltip="the pledge">l’impegno</span> da parte dei talebani, <span data-tooltip="to try">di
+                  cercare</span> di prevenire <span data-tooltip="the planning">la pianificazione</span> di attacchi
+                terroristici su suolo afgano contro gli Stati Uniti e i loro alleati. Il Presidente Trump
+                <span data-tooltip="announced">ha annunciato</span> che delle 12.000 forze militari attualmente in
+                Afganistan, 5.000 <span data-tooltip="will leave">lasceranno</span> il Paese
+                <span data-tooltip="by May">entro maggio</span>.<br><br>La guerra in Afganistan
+                <span data-tooltip="started">è iniziata</span> 18 anni fa, quando le forze americane durante la
+                presidenza di George W. Bush <span data-tooltip="invaded">invasero</span> il Paese alcune settimane dopo
+                gli attacchi dell’11 settembre 2001, organizzati da Al-Qaeda, che <span data-tooltip="at that time">all’epoca</span>
+                <span data-tooltip="operated">aveva la base operativa</span> proprio in Afganistan. I talebani
+                <span data-tooltip="were ousted">furono estromessi</span> dal potere, ma iniziarono
+                <span data-tooltip="an insurgency">una guerriglia</span>, che <span data-tooltip="is estimated">si
+                  stima</span> essere ancora in atto in due terzi del Paese. Dopo la firma dell’accordo, i talebani
+                <span data-tooltip="said">hanno dichiarato</span> di ritenere <span data-tooltip="the withdrawal">il
+                  ritiro</span> delle truppe americane una vera e propria vittoria. </p>
+                <table class="dialog-table">
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Stefano:
+                    </td>
+                    <td class="data"> Wow! Che straordinario accordo di pace è questo! Cosa
+                      <span data-tooltip="has gotten">ha ottenuto</span> <span data-tooltip="the self-proclaimed">l’autoproclamatosi</span>
+                      <span data-tooltip="greatest">miglior</span> negoziatore di tutti i tempi, dopo un conflitto
+                      durato 18 anni?
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Romina:
+                    </td>
+                    <td class="data"><span data-tooltip="Peace talks">I negoziati di pace</span> tra i talebani e il
+                      governo afgano.
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Stefano:
+                    </td>
+                    <td class="data"> Beh, al momento sembra che questa parte dell’accordo <span data-tooltip="is off">sia
+                      saltata</span>. Che altro?
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Romina:
+                    </td>
+                    <td class="data"> I talebani <span data-tooltip="also promised">hanno anche promesso</span> con
+                      forza <span data-tooltip="to prevent">di prevenire</span> gli attacchi, organizzati da gruppi
+                      terroristici su <span data-tooltip="soil">suolo</span> afgano.
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Stefano:
+                    </td>
+                    <td class="data"> Pensi che i talebani <span data-tooltip="are trustworthy">siano affidabili</span>?
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Romina:
+                    </td>
+                    <td class="data"> No, non molto. <span data-tooltip="I would never believe">Non crederei mai</span>
+                      ad alcuna delle loro promesse. Neppure a quella <span data-tooltip="about the reduction">sulla
+                        diminuzione</span> delle violenze. I talebani, poi, non controllano
+                      <span data-tooltip="all of the insurgency">tutte le rivolte</span>. Ci sono molte
+                      <span data-tooltip="splinter groups">fazioni</span> al loro interno.
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Stefano:
+                    </td>
+                    <td class="data"> Nell’accordo che <span data-tooltip="they have signed">hanno sottoscritto</span>,
+                      hanno promesso di modificare <span data-tooltip="their hard policies">la loro rigida
+                        politica</span> nei confronti delle donne?
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Romina:
+                    </td>
+                    <td class="data"> Mm… <span data-tooltip="I don’t think so">non credo proprio</span>.</td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Stefano:
+                    </td>
+                    <td class="data"><span data-tooltip="They agreed">Hanno accettato</span> almeno di rispettare i
+                      luoghi di interesse culturale?
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Romina:
+                    </td>
+                    <td class="data"> No. <span data-tooltip="I don’t see">Non vedo</span> questo punto in nessuna parte
+                      dell’accordo.
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Stefano:
+                    </td>
+                    <td class="data"> Che patto eccezionale!</td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Romina:
+                    </td>
+                    <td class="data"> Penso sia evidente a tutti il fatto che i talebani
+                      <span data-tooltip="have gotten">abbiano ottenuto</span> <span data-tooltip="a better deal">un
+                        accordo migliore</span>. <span data-tooltip="After all">In fin dei conti</span>,
+                      <span data-tooltip="you could not expect">non ci si poteva aspettare</span> nulla di diverso
+                      <span data-tooltip="with the withdrawal">con il ritiro</span> degli Stati Uniti dal mondo. Come ha
+                      detto il Presidente Trump, <span data-tooltip="what happens">quello che accade</span> in
+                      Afganistan è, ora, <span data-tooltip="somebody else’s problem">un problema di qualcun
+                        altro</span>.
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Stefano:
+                    </td>
+                    <td class="data"><span data-tooltip="Until the next">Fino al prossimo</span> attacco terroristico.
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <div class="content-title series-title-row"><h1><a name="1">Putin introduce
+                <span data-tooltip="a package">un pacchetto</span> <span data-tooltip="of amendments">di
+                  emendamenti</span> costituzionali</a></h1>
+                <div><a
+                  class="audio-anchor"
+                  data-time="477"
+                ></a> <a
+                  class="pronunciation-button a"
+                  title="Pronunciation Practice"
+                  href="/series/pronunciation/387/2?back=%2Fseries%2Fepisode%2F387%231"
+                ></a></div>
+              </div>
+              <div style="margin-top: 0.6em; margin-bottom: 0.6em;"><span class="clock-date">5 March 2020</span></div>
+              <div class="content-image"><img
+                src="https://nsc.newsinslow.com/images/news/2020/10/eu2.jpg"
+                alt="Putin introduce un pacchetto di emendamenti costituzionali"
+              >
+                <div class="image-credits">Sodel Vladyslav / Shutterstock.com</div>
+              </div>
+              <div class="content content-styles"><p> Il Presidente russo, Vladimir Putin, ha proposto
+                <span data-tooltip="several constitutional amendments">una serie di emendamenti costituzionali</span>,
+                che <span data-tooltip="could be approved">potrebbero essere approvati</span> attraverso un referendum
+                popolare, fissato per il prossimo 22 aprile. Una delle modifiche <span data-tooltip="will define">definirà</span>
+                il matrimonio come un’unione <span data-tooltip="between">tra</span> un uomo e una donna e, di fatto,
+                <span data-tooltip="will rule out">vieterà</span> i matrimoni gay. Putin vorrebbe, inoltre, che fosse
+                inserita nel preambolo della Costituzione <span data-tooltip="the faith">la fede</span> della Russia in
+                Dio. <span data-tooltip="Further">Altri</span> emendamenti
+                <span data-tooltip="will ban">proibiranno</span> la possibilità <span data-tooltip="to give away">di
+                  cedere</span> i territori russi e proteggere la <span data-tooltip="so-called">cosiddetta</span>
+                “<span data-tooltip="truth">verità</span> storica” del “grande
+                <span data-tooltip="achievement">successo</span> del popolo” nella Seconda guerra mondiale.<br><br>I
+                critici <span data-tooltip="think">ritengono</span> che gli emendamenti siano
+                <span data-tooltip="a political move">una mossa politica</span> di Putin, per rafforzare ulteriormente
+                <span data-tooltip="his power">il suo potere</span>, <span data-tooltip="beyond the end">oltre la
+                  fine</span> del suo mandato presidenziale nel 2024. A gennaio di quest’anno, infatti, ha delegato
+                <span data-tooltip="key powers">i poteri più importanti</span> al parlamento, che è
+                <span data-tooltip="under his control">sotto il suo controllo</span>. Sono in molti a credere che Putin
+                <span data-tooltip="will find">troverà</span> un nuovo titolo nel 2024, che
+                <span data-tooltip="will allow him">gli consentirà</span> <span data-tooltip="to keep">di
+                  conservare</span> i poteri dittatoriali, di cui <span data-tooltip="he has enjoyed">ha goduto</span>
+                per gli ultimi 20 anni. L’attuale costituzione è <span data-tooltip="secular">laica</span> ed
+                <span data-tooltip="was put in place">è entrata in vigore</span> sotto il Presidente
+                <span data-tooltip="pro-western">filo-occidentale</span> Boris Yeltsin.<br><br>Il pacchetto di riforme,
+                proposto da Putin, è parte <span data-tooltip="of the fight">della lotta</span> che il Presidente russo
+                <span data-tooltip="is leading against">sta conducendo contro</span> il liberalismo
+                <span data-tooltip="western">occidentale</span>. Il suo <span data-tooltip="tenure">mandato</span>,
+                infatti, è stato caratterizzato da una <span data-tooltip="widespread">generalizzata</span> propaganda
+                contro i gay e dalla <span data-tooltip="harassment">persecuzione</span> nei confronti degli
+                omosessuali. Putin <span data-tooltip="has brought back">ha riportato in auge</span> i simboli dell’era
+                sovietica e l’influenza della <span data-tooltip="church">chiesa</span> ortodossa russa. Gli emendamenti
+                territoriali, invece, <span data-tooltip="are designed">sono pensati per</span>
+                <span data-tooltip="to strengthen">rafforzare</span> il controllo sulla Crimea, penisola ucraina
+                <span data-tooltip="annexed">annessa</span> al territorio russo nel 2014, e sulle isole
+                <span data-tooltip="Kuril">Curili</span>, <span data-tooltip="in dispute">disputate</span> con il
+                Giappone dalla Seconda guerra mondiale. Con le misure relative alla
+                “<span data-tooltip="truth">verità</span> storica” Putin vuole, invece, combattere le forze
+                <span data-tooltip="foreign">straniere</span>, che lui ritiene vogliano
+                <span data-tooltip="to diminish">sminuire</span> il ruolo della Russia nel Secondo conflitto mondiale.
+                Le modifiche costituzionali, però, <span data-tooltip="have to be approved">devono essere
+                  approvate</span> dal parlamento e dalla corte costituzionale, organi che, però, sono una
+                <span data-tooltip="mere">mera</span> formalità nella Russia di Putin. </p>
+                <table class="dialog-table">
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Stefano:
+                    </td>
+                    <td class="data"> Wow! <span data-tooltip="land grab">Annessione di territori</span>, “la verità
+                      storica”, Dio, l’ultra tradizionalismo, i simboli dell’era sovietica. C’è
+                      <span data-tooltip="something for everybody">qualcosa per tutti</span> nella Russia di oggi!
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Romina:
+                    </td>
+                    <td class="data"> Non per tutti, Stefano. <span data-tooltip="There are">Ci sono</span> molti russi
+                      che non vorrebbero queste modifiche costituzionali.
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Stefano:
+                    </td>
+                    <td class="data"> La maggior parte del popolo russo, però, <span data-tooltip="would approve them">le
+                      approverà</span>. Sai che cosa <span data-tooltip="have in common">hanno in comune</span> tutti
+                      questi emendamenti?
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Romina:
+                    </td>
+                    <td class="data"> Beh, la risposta è ovvia, Stefano. La ragione di tutto questo è
+                      <span data-tooltip="to strengthen">rafforzare</span> lo spirito nazionalista in Russia. Putin
+                      <span data-tooltip="is showing">sta mostrando</span> ai russi, che il loro Paese
+                      <span data-tooltip="is moving up">si sta facendo strada</span> nel mondo.
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Stefano:
+                    </td>
+                    <td class="data"> Esattamente! I dittatori <span data-tooltip="always appeal">fanno sempre
+                      appello</span> ai <span data-tooltip="worst">peggiori</span> istinti delle persone, come in questo
+                      caso.
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Romina:
+                    </td>
+                    <td class="data"> Questi emendamenti <span data-tooltip="will be put to a public vote">dovranno
+                      essere votati dalla popolazione</span> proprio <span data-tooltip="by order of">per volere</span>
+                      del Presidente russo. È tutto perfettamente pianificato. <span data-tooltip="Look">Guarda</span>
+                      <span data-tooltip="how looks">come appare</span> improvvisamente democratico Putin. È
+                      praticamente un uomo del popolo!
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Stefano:
+                    </td>
+                    <td class="data"> Sai a che cosa <span data-tooltip="are for">servono</span> queste
+                      <span data-tooltip="amendments">misure</span>?
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Romina:
+                    </td>
+                    <td class="data"> Ad assicurare a Putin <span data-tooltip="further">ulteriori</span> 50 anni di
+                      potere assoluto!
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <div class="content-title series-title-row"><h1><a name="2">Uno studio <span data-tooltip="suggests">suggerisce</span>
+                che i <span data-tooltip="seagulls">gabbiani</span> preferiscono <span data-tooltip="food">il
+                  cibo</span> toccato <span data-tooltip="by humans">dagli umani</span></a></h1>
+                <div><a
+                  class="audio-anchor"
+                  data-time="783"
+                ></a> <a
+                  class="pronunciation-button a"
+                  title="Pronunciation Practice"
+                  href="/series/pronunciation/387/3?back=%2Fseries%2Fepisode%2F387%232"
+                ></a></div>
+              </div>
+              <div style="margin-top: 0.6em; margin-bottom: 0.6em;"><span class="clock-date">5 March 2020</span></div>
+              <div class="content-image"><img
+                src="https://nsc.newsinslow.com/images/news/2020/10/eu3.jpg"
+                alt="Uno studio suggerisce che i gabbiani preferiscono il cibo toccato dagli umani"
+              ></div>
+              <div class="content content-styles"><p> Uno studio, pubblicato lo scorso 26 febbraio sulla rivista <i>Royal
+                Society Open Science</i>, <span data-tooltip="says">indica</span> che i gabbiani sarebbero
+                <span data-tooltip="more attracted">più attratti</span> dal cibo, che <span data-tooltip="saw">hanno
+                  visto</span> <span data-tooltip="to eat">mangiare</span> prima dagli umani. I risultati della ricerca
+                <span data-tooltip="suggest">suggeriscono</span>, quindi, l’importanza <span data-tooltip="to improve">di
+                  migliorare</span> la gestione <span data-tooltip="of disposing of food waste">dello smaltimento dei
+                  rifiuti alimentari</span>, perché la facile <span data-tooltip="availability">reperibilità</span> di
+                cibo, <span data-tooltip="should reinforce">potrebbe rafforzare</span> nei gabbiani questa
+                abitudine.<br><br>Per arrivare a queste conclusioni, il gruppo di ricerca
+                <span data-tooltip="approached">ha approcciato</span> singoli gabbiani, incontrati per strada, ponendo a
+                otto metri <span data-tooltip="away">di distanza</span> da loro <span data-tooltip="a bucket">un
+                  secchiello</span> <span data-tooltip="upended">capovolto</span> con dentro delle
+                <span data-tooltip="flapjacks">frittelle</span>. Uno dei ricercatori, poi,
+                <span data-tooltip="picked up">ha preso in mano</span> una frittella, <span data-tooltip="pretending">facendo
+                  finta</span> di mangiarla per 20 secondi, <span data-tooltip="before putting it back">prima di
+                  rimetterla</span> nel secchiello con le altre. Dei 38 gabbiani <span data-tooltip="put to the test">messi
+                  alla prova</span>, 24 <span data-tooltip="came forward">si sono fatti avanti</span> per mangiare i
+                dolci. 19 di questi, invece, circa il 74 per cento, <span data-tooltip="chose">hanno scelto</span>
+                proprio il dolce, che il ricercatore <span data-tooltip="had pretended">aveva finto</span> di mangiare.
+                <span data-tooltip="According to">Secondo</span> gli scienziati, questo
+                <span data-tooltip="should indicate">indicherebbe</span> che i gabbiani osservano con attenzione gli
+                esseri umani e <span data-tooltip="associate">associano</span> le persone con il
+                cibo.<br><br><span data-tooltip="Due to the human expansion">A causa dell’espansione umana</span> nelle
+                tradizionali <span data-tooltip="nesting grounds">zone di nidificazione</span> dei gabbiani, la
+                popolazione di questi uccelli <span data-tooltip="has dropped">è diminuita</span> del 60 per cento tra
+                il 1969 e il 2015. <span data-tooltip="Relying on humans">Fare affidamento sugli umani</span> per il
+                cibo, quindi, <span data-tooltip="may be">potrebbe essere</span> una strategia di sopravvivenza
+                <span data-tooltip="for herring gulls">per i gabbiani reali</span>. </p>
+                <table class="dialog-table">
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Stefano:
+                    </td>
+                    <td class="data"> Romina, questo significa che i gabbiani <span data-tooltip="are no longer">non
+                      sono più</span> animali <span data-tooltip="wild">selvatici</span>.
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Romina:
+                    </td>
+                    <td class="data"><span data-tooltip="I thought">Ho pensato</span> la stessa cosa. Hanno mostrato di
+                      adottare <span data-tooltip="the same behavior">lo stesso comportamento</span> di, gatti, cani, o
+                      altri animali addomesticati, che, nel corso dei millenni, <span data-tooltip="have learned">hanno
+                        imparato</span> a far dipendere <span data-tooltip="their survival">la propria
+                        sopravvivenza</span> dagli umani.
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Stefano:
+                    </td>
+                    <td class="data"> Sarebbe interessante <span data-tooltip="to know">sapere</span>, quanto cibo
+                      <span data-tooltip="provided by humans">di provenienza umana</span> mangiano i gabbiani oggi.
+                      Questi uccelli <span data-tooltip="eat">mangiano</span> principalmente pesce, vero? O
+                      <span data-tooltip="at least">almeno</span> era quello che <span data-tooltip="they used to">facevano</span>.
+                      Sfortunatamente <span data-tooltip="have learned">hanno imparato</span> che la
+                      <span data-tooltip="trash">spazzatura</span> umana è una fonte di cibo
+                      <span data-tooltip="easier">più facile</span> <span data-tooltip="to find">da reperire</span>.
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Romina:
+                    </td>
+                    <td class="data"><span data-tooltip="I expected">Mi aspettavo</span> che
+                      <span data-tooltip="the food scraps">gli avanzi di cibo</span>, che le persone gettano via,
+                      <span data-tooltip="become">diventassero</span> una parte importante della loro dieta.
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Stefano:
+                    </td>
+                    <td class="data"> Questi uccelli, poi, non hanno più paura delle persone. Ho visto dei gabbiani che
+                      portano via il cibo direttamente dalle mani delle persone.
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Romina:
+                    </td>
+                    <td class="data"> Che mi dici allora degli scoiattoli nei parchi pubblici? Vanno in cerca del cibo
+                      nella spazzatura e anche loro <span data-tooltip="are not afraid">non hanno più paura</span> delle
+                      persone.
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Stefano:
+                    </td>
+                    <td class="data"> È tutta <span data-tooltip="our fault">colpa nostra</span>.
+                      <span data-tooltip="We should adopt">Dovremmo adottare</span> strategie migliori
+                      <span data-tooltip="for food waste disposal">per lo smaltimento dei rifiuti</span>.
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <div class="content-title series-title-row"><h1><a name="3"> <span data-tooltip="More and more">Sempre
+                più</span> compagnie usano algoritmi informatici, per determinare
+                <span data-tooltip="”the cultural fit”">“l’idoneità culturale”</span> dei possibili candidati</a></h1>
+                <div><a
+                  class="audio-anchor"
+                  data-time="1013"
+                ></a> <a
+                  class="pronunciation-button a"
+                  title="Pronunciation Practice"
+                  href="/series/pronunciation/387/4?back=%2Fseries%2Fepisode%2F387%233"
+                ></a></div>
+              </div>
+              <div style="margin-top: 0.6em; margin-bottom: 0.6em;"><span class="clock-date">5 March 2020</span></div>
+              <div class="content-image"><img
+                src="https://nsc.newsinslow.com/images/news/2020/10/eu4.jpg"
+                alt=" Sempre più compagnie usano algoritmi informatici, per determinare “l’idoneità culturale” dei possibili candidati"
+              ></div>
+              <div class="content content-styles"><p><span data-tooltip="According to">Secondo</span> un articolo,
+                pubblicato lo scorso 28 febbraio dalla BBC, sempre più aziende <span data-tooltip="rely on">si
+                  affidano</span> ad algoritmi informatici per la selezione del personale,
+                <span data-tooltip="to understand">per capire</span> se i candidati <span data-tooltip="are a good fit">si
+                  adattano</span> alla filosofia di <span data-tooltip="work">lavoro</span> della compagnia. Questo
+                rientra nella <span data-tooltip="trend">tendenza</span>, <span data-tooltip="growing">in
+                  crescita</span> negli ultimi anni, <span data-tooltip="to make">di rendere</span> il processo di
+                <span data-tooltip="hiring">assunzione</span> sempre più automatizzato. Una
+                <span data-tooltip="pre-screening">preselezione</span> dei <span data-tooltip="CV">curricula</span> e
+                delle <span data-tooltip="proficiency tests">prove di idoneità</span> computerizzate è ormai diventata
+                una norma per molte aziende.<br><br>Oggi <span data-tooltip="several">numerose</span> compagnie
+                preferiscono utilizzare algoritmi, per determinare <span data-tooltip="the cultural fit">l’idoneità
+                  culturale</span> dei candidati, prima di decidere se invitarli per un
+                <span data-tooltip="job interview">colloquio di lavoro</span>. Questi algoritmi, creati da
+                <span data-tooltip="consultancy groups">società di consulenza</span> e <span data-tooltip="tailored">adattati</span>
+                secondo le specifiche <span data-tooltip="needs">esigenze</span> di ogni compagnia, sono molto popolari
+                specialmente nelle grandi aziende, che devono valutare i curricula di
+                <span data-tooltip="hundreds of thousands">centinaia di migliaia</span> di candidati ogni anno. Gli
+                algoritmi sono <span data-tooltip="able to">in grado di</span> verificare e <span data-tooltip="rank">classificare</span>
+                <span data-tooltip="the job attitude">l’attitudine al lavoro</span>, il <span data-tooltip="behavior">comportamento</span>,
+                l’orario di lavoro, <span data-tooltip="leadership">la capacità di comando</span>, la reazione allo
+                stress o ai <span data-tooltip="change">cambiamenti</span>, e l’abilità a lavorare in gruppo dei
+                candidati.<br><br>Secondo Christopher Platts, il co-fondatore di <i>ThriveMap</i>, una
+                <span data-tooltip="consultancy firm">società di consulenza</span>, i candidati con un
+                <span data-tooltip="ranking">punteggio</span> “eccellente”, o “buono” nelle analisi della sua compagnia
+                sono <span data-tooltip="three times">tre volte</span> <span data-tooltip="less likely">meno
+                  inclini</span> <span data-tooltip="to leave">ad andarsene</span> durante i primi 90 giorni. Gli
+                algoritmi possono anche <span data-tooltip="help">aiutare</span> a trovare i candidati ideali nel
+                <span data-tooltip="job market">mondo del lavoro</span>, utilizzando i social media per analizzare le
+                competenze, gli interessi e gli hobby di un potenziale candidato e invitarlo
+                <span data-tooltip="to apply">a fare domanda</span> <span data-tooltip="for the job">per il posto di
+                  lavoro</span>. </p>
+                <table class="dialog-table">
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Stefano:
+                    </td>
+                    <td class="data"> Era solo questione di tempo. Se moltissime app per trovare
+                      <span data-tooltip="a partner">l’anima gemella</span> usano con successo algoritmi, di certo le
+                      aziende possono trovare il proprio “<span data-tooltip="employee">dipendente</span> ideale”
+                      <span data-tooltip="via">tramite</span> computer!
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Romina:
+                    </td>
+                    <td class="data"><span data-tooltip="I’m sensing that">Mi pare di capire che</span> tu non sia
+                      proprio entusiasta di questa <span data-tooltip="strategy">trovata</span>. Non pensi
+                      <span data-tooltip="it may work?”">che possa funzionare?</span></td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Stefano:
+                    </td>
+                    <td class="data"> Sono <span data-tooltip="absolutely sure">certissimo</span>
+                      <span data-tooltip="it will work">che funzionerà</span>. Le aziende che useranno questa strategia
+                      di selezione <span data-tooltip="will risk">rischieranno</span> <span data-tooltip="toh ire">di
+                        assumere</span> il proprio candidato ideale <span data-tooltip="all the time">di continuo</span>…
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Romina:
+                    </td>
+                    <td class="data"> E quindi? <span data-tooltip="What is bad in that?">Cosa c’è di male?</span></td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Stefano:
+                    </td>
+                    <td class="data"> Ti ricordi del proverbio africano <span data-tooltip="”it takes a village”?">“ci
+                      vuole un villaggio”?</span></td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Romina:
+                    </td>
+                    <td class="data"><span data-tooltip="It means">Significa</span> che ci vuole
+                      <span data-tooltip="the contribution">l’apporto</span> di tutta la comunità
+                      <span data-tooltip="to raise">per crescere</span> <span data-tooltip="a kid">un bambino</span>
+                      fino all’età adulta.
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Stefano:
+                    </td>
+                    <td class="data"> Certo, ma significa anche che <span data-tooltip="it is needed">si ha
+                      bisogno</span> <span data-tooltip="all kinds of">di ogni tipo di</span> persone per
+                      <span data-tooltip="reach">raggiungere</span> un qualsiasi obiettivo.
+                      <span data-tooltip="It works">Vale</span> anche per le aziende: hanno bisogno di
+                      <span data-tooltip="brains">menti</span> creative, ma anche di <span data-tooltip="workers">esecutori</span>
+                      disciplinati. C’è bisogno di gente che lavora bene in gruppo e di solitari. Di
+                      <span data-tooltip="leaders">comandanti</span> e di <span data-tooltip="followers">gregari</span>.
+                      Di <span data-tooltip="thinkers">pensatori</span> e di <span data-tooltip="doers">operai</span>.
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Romina:
+                    </td>
+                    <td class="data"><span data-tooltip="Now I get it…">Ora capisco…</span> vuoi dire che un algoritmo
+                      potrebbe creare una monocultura.
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Stefano:
+                    </td>
+                    <td class="data"> Esattamente. <span data-tooltip="You need">C’è bisogno</span> di diversità di
+                      <span data-tooltip="thought">pensiero</span>, <span data-tooltip="behavior">comportamento</span>,
+                      cultura, <span data-tooltip="mission…">scopo nella vita…</span> <span data-tooltip="exactly">proprio</span>
+                      <span data-tooltip="the opposite">il contrario</span> <span data-tooltip="of what">di ciò</span>
+                      che l’algoritmo del “candidato ideale” <span data-tooltip="aims">si propone</span> di ottenere.
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <div class="content-title series-title-row"><h1>
+                <a name="4"><span data-tooltip="Scientists">Scienziate</span> italiane isolano coronavirus e nel Paese
+                  <span data-tooltip="is reignited">si riaccende</span> <span data-tooltip="the controversy">la
+                    polemica</span> sul <span data-tooltip="under funding">sotto-finanziamento</span> della ricerca.</a>
+              </h1>
+                <div><a
+                  class="audio-anchor"
+                  data-time="1280"
+                ></a> <a
+                  class="pronunciation-button a"
+                  title="Pronunciation Practice"
+                  href="/series/pronunciation/387/5?back=%2Fseries%2Fepisode%2F387%234"
+                ></a></div>
+              </div>
+              <div style="margin-top: 0.6em; margin-bottom: 0.6em;"><span class="clock-date">5 March 2020</span></div>
+              <div class="content-image"><img
+                src="https://nsc.newsinslow.com/images/news/2020/10/nsi5.jpg"
+                alt="Scienziate italiane isolano coronavirus e nel Paese si riaccende la polemica sul sotto-finanziamento della ricerca."
+              >
+                <div class="image-credits">Stefano Guidi / Shutterstock.com</div>
+              </div>
+              <div class="content content-styles"><p></p>
+                <table class="dialog-table">
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Romina:
+                    </td>
+                    <td class="data"><span data-tooltip="A few weeks ago">Qualche settimana fa</span> un team di
+                      <span data-tooltip="scientists">scienziate</span> italiane del Laboratorio di Virologia
+                      dell’ospedale Spallanzani di Roma, ha annunciato di aver isolato <span data-tooltip="the genome">il
+                        genoma</span> del nuovo coronavirus. La notizia, <span data-tooltip="in addition to causing">oltre
+                        a suscitare</span> grande <span data-tooltip="satisfaction">soddisfazione</span> per i risultati
+                      <span data-tooltip="obtained">raggiunti</span> in così poco tempo dall’esplosione dell’epidemia,
+                      ha generato anche qualche <span data-tooltip="controversy">polemica</span>. I giornali, infatti,
+                      <span data-tooltip="revealed">hanno rivelato</span> che la più giovane delle tre scienziate, la
+                      <span data-tooltip="thirty one year old">trentunenne</span> Francesca Colavita, aveva lavorato
+                      fino a quel momento per 1.500 euro al mese e con <span data-tooltip="a fixed term contract">un
+                        contratto a tempo determinato</span>. <span data-tooltip="The incident">La vicenda</span> ha
+                      contribuito a <span data-tooltip="reopen the debate">riaprire il dibattito</span> sullo
+                      <span data-tooltip="thorny topic">spinoso tema</span> del <span data-tooltip="under financing">sotto-finanziamento</span>
+                      della ricerca italiana.
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Stefano:
+                    </td>
+                    <td class="data"> Eh sì! Questo, <span data-tooltip="unfortunately">purtroppo</span>, è uno dei
+                      tanti problemi cui l’Italia <span data-tooltip="cannot cope with">non riesce a far fronte</span>.
+                      <span data-tooltip="The lack of funds">La mancanza di fondi</span> per la ricerca e di adeguate
+                      opportunità lavorative, da anni <span data-tooltip="pushes">spinge</span> moltissimi giovani e
+                      brillanti scienziati <span data-tooltip="to move abroad">a trasferirsi all’estero</span>.
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Romina:
+                    </td>
+                    <td class="data"> Ho letto che il Governo sta pensando <span data-tooltip="to hire">di
+                      assumere</span> 1.600 nuovi ricercatori, inserendo <span data-tooltip="the measure">il
+                      provvedimento</span> nella <span data-tooltip="draft">bozza</span> di un
+                      <span data-tooltip="amendment">emendamento</span> al <span data-tooltip="legislative decree">decreto
+                        legge</span> “<span data-tooltip="One thousand extensions">Milleproroghe</span>”, che andrà a
+                      modificare alcuni punti della <span data-tooltip="budget law">legge di bilancio</span> del 2020.
+                      Questi ricercatori <span data-tooltip="would be included">rientrerebbero</span> nella
+                      <span data-tooltip="so-called">cosiddetta</span> <span data-tooltip="Band">Fascia</span> B, che
+                      <span data-tooltip="calls for">prevede</span> contratti
+                      <span data-tooltip="three-year">triennali</span>, <span data-tooltip="at the end of which">al
+                        termine dei quali</span> è prevista un’eventuale assunzione come professori associati. Ma
+                      <span data-tooltip="it’s not over here">non è finita qui</span>…
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Stefano:
+                    </td>
+                    <td class="data"> Sentiamo <a
+                      data-href="series/expressions/12/18/transcript/1"
+                      data-tooltip-reference="expressions"
+                      data-tooltip-meaning="What’s cooking?"
+                    ><b>cos’altro bolle in pentola</b></a>!
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Romina:
+                    </td>
+                    <td class="data"> Lo scorso 6 febbraio, il Fatto Quotidiano ha pubblicato un articolo, in cui si
+                      parla dell’intenzione del Governo di <span data-tooltip="launch">avviare</span>
+                      <span data-tooltip="a multi-year plan">un piano pluriennale</span> di
+                      <span data-tooltip="recruitment">reclutamento</span> di 2.000 ricercatori all’anno per 5 anni,
+                      destinato non solo alle università, ma anche agli <span data-tooltip="research organizations">enti
+                        di ricerca</span>. Conte ha detto che ricerca e <span data-tooltip="education">istruzione</span>
+                      sono le “priorità nella linea di <span data-tooltip="development">sviluppo</span> del Paese”.
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Stefano:
+                    </td>
+                    <td class="data"> Anch’io credo che la ricerca e l’istruzione debbano avere
+                      <span data-tooltip="a primary role">un ruolo prioritario</span> nel nostro Paese,
+                      <span data-tooltip="nonetheless">tuttavia</span> non penso che il piano del Governo
+                      <span data-tooltip="will ever be put into effect">verrà mai messo in atto</span>.
+                      <span data-tooltip="I am afraid">Temo</span> si tratti della
+                      <span data-tooltip="usual move to gather support">solita mossa per raccogliere consensi</span>,
+                      più che di un vero intento.
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Romina:
+                    </td>
+                    <td class="data"><span data-tooltip="In my opinion">Secondo me</span>,
+                      <span data-tooltip="you are wrong">ti sbagli</span>…
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Stefano:
+                    </td>
+                    <td class="data"> Pensaci Romina! Fino a pochi mesi fa, <span data-tooltip="the budget package">la
+                      manovra finanziaria</span> <span data-tooltip="did not include">non comprendeva</span> fondi
+                      <span data-tooltip="substantial">sostanziali</span> per la ricerca. La sera di Natale, in segno di
+                      protesta, <span data-tooltip="the then minister">l’allora ministro</span> dell’Istruzione,
+                      dell’università e della ricerca, Lorenzo Fioramonti, decise di <span data-tooltip="to resign">rassegnare
+                        le proprie dimissioni</span>. Adesso, dopo
+                      <span data-tooltip="the recent scientific discoveries">le recenti scoperte scientifiche</span>
+                      italiane sul coronavirus, la ricerca <span data-tooltip="suddenly became">è diventa
+                        improvvisamente</span> <span data-tooltip="the main goal">l’obiettivo principale</span> del
+                      Governo.
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Romina:
+                    </td>
+                    <td class="data"> In effetti <span data-tooltip="it seems like a suspicious coincidence">pare una
+                      coincidenza sospetta</span>! Il ruolo, giocato dalla ricerca italiana nell’isolamento del genoma
+                      del coronavirus, <span data-tooltip="might have finally convinced">potrebbe aver finalmente
+                        indotto</span> il Governo a finanziare la ricerca.
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Stefano:
+                    </td>
+                    <td class="data"> L’assunzione di 1.600 ricercatori di fascia B, però,
+                      <span data-tooltip="does not solve">non risolve</span> il problema della mancanza di
+                      <span data-tooltip="personnel">personale</span>, che da anni
+                      <span data-tooltip="afflicts the sector">affligge il settore</span>. Ho letto sul Corriere della
+                      Sera che in dieci anni l’Italia ha perso quasi dieci mila
+                      <span data-tooltip="professors">docenti</span>. Credo che il progetto del Governo sia soltanto
+                      <span data-tooltip="a kind of buffer measure">una sorta di misura tampone</span>.
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Romina:
+                    </td>
+                    <td class="data"> La situazione della ricerca italiana non è <span data-tooltip="rosy">rosea</span>,
+                      anche se i nostri ricercatori sono richiesti e stimati in ogni parte del mondo. Cambiare le cose è
+                      necessario ma <span data-tooltip="it requires time">richiede tempo</span>. Grazie alle ultime due
+                      finanziarie e all’assunzione di ricercatori, la situazione
+                      <span data-tooltip="is improving little by little">sta pian piano migliorando</span>.
+                      <span data-tooltip="One must hope that">Bisogna sperare che</span> questo
+                      <span data-tooltip="positive trend">andamento positivo</span> continui anche in futuro.
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <div class="content-title series-title-row"><h1><a name="5">Palermo, <span data-tooltip="controversy">polemiche</span>
+                sulla decisione di <span data-tooltip="a judge">un giudice</span> di chiudere
+                <span data-tooltip="the oratory">l’oratorio</span> per <span data-tooltip="noise">schiamazzi</span></a>
+              </h1>
+                <div><a
+                  class="audio-anchor"
+                  data-time="1584"
+                ></a> <a
+                  class="pronunciation-button a"
+                  title="Pronunciation Practice"
+                  href="/series/pronunciation/387/6?back=%2Fseries%2Fepisode%2F387%235"
+                ></a></div>
+              </div>
+              <div style="margin-top: 0.6em; margin-bottom: 0.6em;"><span class="clock-date">5 March 2020</span></div>
+              <div class="content-image"><img
+                src="https://nsc.newsinslow.com/images/news/2020/10/nsi6.jpg"
+                alt="Palermo, polemiche sulla decisione di un giudice di chiudere l’oratorio per schiamazzi"
+              >
+                <div class="image-credits">Iris van den Broek / Shutterstock.com</div>
+              </div>
+              <div class="content content-styles"><p></p>
+                <table class="dialog-table">
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Stefano:
+                    </td>
+                    <td class="data"> Da circa un mese a Palermo <span data-tooltip="all people do is">non si fa
+                      che</span> discutere della sentenza <span data-tooltip="issued">emessa</span> da un
+                      <span data-tooltip="judge">giudice</span> civile della seconda sezione del
+                      <span data-tooltip="court">tribunale</span>, che <span data-tooltip="put an end">ha messo
+                        fine</span> alle <span data-tooltip="recreational activities">attività ricreative</span> di
+                      <span data-tooltip="a parish oratory">un oratorio parrocchiale</span> della periferia del
+                      <span data-tooltip="capital">capoluogo</span> siciliano.
+                      <span data-tooltip="According to">Secondo</span> quanto riferito dai quotidiani, il giudice
+                      <span data-tooltip="would have received">avrebbe accolto</span> le richieste di 5 famiglie, le cui
+                      abitazioni <span data-tooltip="face the square">si affacciano sul piazzale</span> della parrocchia
+                      Santa Teresa del <span data-tooltip="Baby Jesus">Bambin Gesù</span>, che avevano denunciato
+                      <span data-tooltip="the excessive noise">l’eccessivo rumore</span>, <span data-tooltip="caused">provocato</span>
+                      dagli <span data-tooltip="shouts of children">schiamazzi dei bambini</span>,
+                      dall’<span data-tooltip="amplification system">impianto di amplificazione</span> e dai palloni. Ne
+                      hai sentito parlare?
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Romina:
+                    </td>
+                    <td class="data"> Sì, ho sentito anch’io questa notizia. In un articolo, pubblicato lo scorso 12
+                      febbraio sul <span data-tooltip="newspaper">quotidiano</span> Il Giornale, ho letto, però, che la
+                      chiusura dell’oratorio <span data-tooltip="is only temporary">è solo temporanea</span>. Il
+                      giudice, infatti, nella sentenza ha stabilito che gli spazi dove giocano i bambini, potranno
+                      tornare a essere utilizzati <span data-tooltip="at full power">a pieno regime</span>, non appena
+                      saranno stati adeguatamente <span data-tooltip="soundproofed">insonorizzati</span> con
+                      <span data-tooltip="rubber perimetry boundary">barriere perimetrali in gomma</span>.
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Stefano:
+                    </td>
+                    <td class="data"> Hai idea di quanto costi <span data-tooltip="an intervention of this kind">un
+                      intervento del genere</span>? Circa 20 mila euro. La parrocchia
+                      <span data-tooltip="does not have this money">questi soldi non li possiede</span>…
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Romina:
+                    </td>
+                    <td class="data"> Per ora! I religiosi e le famiglie dei bambini che frequentano l’oratorio
+                      potrebbero darsi da fare per <span data-tooltip="collect funds">raccogliere fondi</span>,
+                      <span data-tooltip="launching">lanciando</span> una campagna di crowdfunding, oppure
+                      <span data-tooltip="appealing">facendo ricorso</span> alle offerte dei
+                      <span data-tooltip="faithful">fedeli</span>. <span data-tooltip="In the meantime">Nel
+                        frattempo</span>, i bambini potranno continuare a frequentare la parrocchia,
+                      <span data-tooltip="making sure to follow the restrictions imposed">stando attenti a seguire le
+                        restrizioni imposte</span> dal giudice.
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Stefano:
+                    </td>
+                    <td class="data"> Sono regole davvero esagerate, Romina! Non potranno essere usati
+                      <span data-tooltip="amplification systems">impianti di amplificazione</span>; si potrà fare un
+                      solo sport alla volta e con una sola <span data-tooltip="ball">palla</span>; si potrà
+                      <span data-tooltip="play basketball">giocare a basket</span> solo una volta a settimana e al
+                      massimo per un’ora. I tempi <span data-tooltip="allowed">concessi</span> per le attività, poi,
+                      sono davvero <span data-tooltip="tight">ristretti</span>. La mattina dalle 10 alle 12.30 e il
+                      pomeriggio dalle ore 16 alle ore 21, ma “sempre e soltanto” <span data-tooltip="every other day">a
+                        giorni alterni</span>. Non <span data-tooltip="seem to you">ti sembra</span> esagerato?
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Romina:
+                    </td>
+                    <td class="data"> Mi dispiace per questi bambini ma, <span data-tooltip="in my opinion">a mio
+                      avviso</span>, bisogna rispettare <span data-tooltip="the demands">le esigenze</span> delle cinque
+                      famiglie <span data-tooltip="longing to enjoy">desiderose di godere</span> della tranquillità del
+                      proprio <span data-tooltip="home environment">ambiente domestico</span>.
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Stefano:
+                    </td>
+                    <td class="data"> Certo! È giusto fare il possibile per limitare
+                      <span data-tooltip="the inconvenience caused">i disagi arrecati</span> alle persone. Anche la
+                      parrocchia, però, <span data-tooltip="has the right">ha il diritto</span> di esercitare la propria
+                      attività pastorale, creando momenti di <span data-tooltip="healthy aggregation">sana
+                        aggregazione</span> tra i giovani. La sentenza del giudice per me è troppo severa e rischia di
+                      avere <span data-tooltip="worse consequences">conseguenze ben peggiori</span>.
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Romina:
+                    </td>
+                    <td class="data"><span data-tooltip="What do you mean">Che cosa intendi</span>? <a
+                      data-href="series/expressions/16/201/transcript/1"
+                      data-tooltip-reference="expressions"
+                      data-tooltip-meaning="To be all ears"
+                    ><b>Sono tutt’orecchi</b></a>…
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Stefano:
+                    </td>
+                    <td class="data"> Un articolo del Corriere della Sera del 12 febbraio ha detto che l’oratorio è
+                      <span data-tooltip="a meeting point">un punto di ritrovo</span> molto importante per molti giovani
+                      <span data-tooltip="of the neighborhood">del quartiere</span>. Chiuderlo, o limitarne le attività
+                      <span data-tooltip="recreational">ludiche</span> a poche ore al giorno, rischia di spingere molti
+                      ragazzini ad andare a giocare per strada, o in posti meno <span data-tooltip="safe">sicuri</span>.
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Romina:
+                    </td>
+                    <td class="data"> Su questo <span data-tooltip="I cannot say that you are wrong">non posso darti
+                      torto</span>...
+                    </td>
+                  </tr>
+                  <tr class="toprow">
+                    <td
+                      class="leftcol"
+                      valign="top"
+                    >Stefano:
+                    </td>
+                    <td class="data"> Questa sentenza, poi, potrebbe spingere tanta gente, eccessivamente intollerante
+                      al <span data-tooltip="chatter">vocio</span> dei bambini, a seguire lo stesso esempio e
+                      <span data-tooltip="file a complaint">sporgere denuncia</span>, mettendo a rischio l’esistenza di
+                      tanti oratori italiani, che spesso sono l’unica alternativa alla “<span data-tooltip="bad road">cattiva
+                        strada</span> della vita”. Privare i ragazzi di un momento di gioco che sia, al tempo stesso,
+                      <span data-tooltip="educational">educativo</span> e di socializzazione, è davvero eccessivo e
+                      <span data-tooltip="it fills me with bitterness">mi riempie di amarezza</span>.
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</div>
+<footer id="footer">
+  <nav class="light-links">
+    <div class="square-icons">
+      <ul>
+        <li><a
+          target="_blank"
+          href="https://www.facebook.com/NewsInSlowItalian"
+          class="icon-facebook"
+          title="Facebook"
+        ></a></li>
+        <li><a
+          target="_blank"
+          href="https://www.youtube.com/user/linguistica360"
+          class="icon-youtube"
+          title="Youtube"
+        ></a></li>
+        <li><a
+          target="_blank"
+          href="https://nsi.libsyn.com/website"
+          class="icon-rss"
+          title="RSS"
+        ></a></li>
+        <li><a
+          target="_blank"
+          href="https://twitter.com/slowitalian"
+          class="icon-twitter"
+          title="Twitter"
+        ></a></li>
+        <li><a
+          target="_blank"
+          href="https://www.instagram.com/newsinslow"
+          class="icon-instagram"
+          title="Instagram"
+        ></a></li>
+      </ul>
+    </div>
+    <div>
+      <div><h4>RATES</h4>
+        <ul>
+          <li><a href="/subscription-rates"> Subscription Rates </a></li>
+          <li><a href="/educational-rates"> Educational Rates </a></li>
+          <li><a href="/gift-subscriptions"> Gift Subscriptions </a></li>
+        </ul>
+      </div>
+      <div><h4>ABOUT US</h4>
+        <ul>
+          <li><a href="/contact-us"> Contact Us </a></li>
+          <li><a href="/testimonials"> Testimonials </a></li>
+          <li><a href="/privacy-policy"> Privacy Policy </a></li>
+          <li><a href="/terms-of-use"> Terms of Use </a></li>
+          <li><a href="/refund-policy"> Refund Policy </a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="copyright"> Copyright © 2020 Linguistica 360, Inc.</div>
+</footer>
+<div id="templates">
+  <div
+    id="modal_login"
+    aria-hidden="true"
+    class="modal"
+  >
+    <div
+      tabindex="-1"
+      data-micromodal-close
+      class="modal-overlay"
+    >
+      <div
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modal_login_title"
+        class="modal-container"
+      >
+        <header><h2 id="modal_login_title">Member Login</h2></header>
+        <div id="modal_login_content">
+          <form class="login-form">
+            <div><label for="username">Username</label> <input
+              class="input login-username"
+              type="text"
+              id="username"
+              placeholder="Username or Email"
+              required
+            ></div>
+            <div><label for="password">Password</label> <input
+              class="input login-password"
+              type="password"
+              id="password"
+              placeholder="Password"
+              required
+            ></div>
+            <div>
+              <button
+                class="button primary"
+                type="submit"
+              > Login
+              </button>
+              <button
+                data-micromodal-close
+                class="button secondary"
+                aria-label="Close this dialog window"
+              > Cancel
+              </button>
+            </div>
+          </form>
+        </div>
+        <footer>
+          <div class="login-footer small"><a href="/forgot-password"> Forgot your Password?</a> |
+            <a href="/subscription-rates"> Sign Up</a></div>
+          <div class="login-footer big">
+            <div><a href="/forgot-password"> Forgot your Password?</a></div>
+            <div><a href="/subscription-rates"> Sign Up</a></div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </div>
+</div>
+<script>'use strict';
+window._NiSC = {
+  'login': true,
+  'auth': ['audio', 'main', 'bronze', 'silver', 'gold', 'ge', 'beginners', 'advanced', 'advanced+', 'everything'],
+  'groups': [],
+  'scope': null,
+  'root': '\/',
+  'local': '\/',
+};</script>
+<script src="/assets/polyfill.eb6bbda8226c8554e953.min.js.pagespeed.jm.xRAdjnhOCF.js"></script>
+<script src="/assets/vendor.93ebe05e92676fd6eb49.min.js.pagespeed.jm.NjQyt22lNu.js"></script>
+<script src="/assets/shared.5834ed3f6f1dbabe92eb.min.js.pagespeed.jm.nOtYtksB-7.js"></script>
+<script src="/assets/root.b6772dadd6de2f56953d.min.js.pagespeed.jm.2G-m2iaBXl.js"></script>
+<script data-pagespeed-no-defer>//<![CDATA[
+(function() {
+  function f(b) {
+    var a = window;
+    if (a.addEventListener) a.addEventListener('load', b, !1); else if (a.attachEvent) a.attachEvent('onload',
+        b); else {
+      var c = a.onload;
+      a.onload = function() {
+        b.call(this);
+        c && c.call(this);
+      };
+    }
+  };window.pagespeed = window.pagespeed || {};
+  var k = window.pagespeed;
+
+  function l(b, a, c, g, h) {
+    this.h = b;
+    this.i = a;
+    this.l = c;
+    this.j = g;
+    this.b = h;
+    this.c = [];
+    this.a = 0;
+  }
+
+  l.prototype.f = function(b) {
+    for (var a = 0; 250 > a && this.a < this.b.length; ++a, ++this.a) try {
+      document.querySelector(this.b[this.a]) && this.c.push(this.b[this.a]);
+    } catch (c) {}
+    this.a < this.b.length ? window.setTimeout(this.f.bind(this), 0, b) : b();
+  };
+  k.g = function(b, a, c, g, h) {
+    if (document.querySelector && Function.prototype.bind) {
+      var d = new l(b, a, c, g, h);
+      f(function() {
+        window.setTimeout(function() {
+          d.f(function() {
+            for (var a = 'oh=' + d.l + '&n=' + d.j, a = a + '&cs=', b = 0; b < d.c.length; ++b) {
+              var c = 0 < b
+                  ? ','
+                  : '', c = c + encodeURIComponent(d.c[b]);
+              if (131072 < a.length + c.length) break;
+              a += c;
+            }
+            k.criticalCssBeaconData = a;
+            var b = d.h, c = d.i, e;
+            if (window.XMLHttpRequest) e = new XMLHttpRequest; else if (window.ActiveXObject) try {
+              e = new ActiveXObject('Msxml2.XMLHTTP');
+            } catch (m) {try {e = new ActiveXObject('Microsoft.XMLHTTP');} catch (n) {}}
+            e &&
+            (e.open('POST',
+                b + (-1 == b.indexOf('?') ? '?' : '&') + 'url=' + encodeURIComponent(c)), e.setRequestHeader(
+                'Content-Type', 'application/x-www-form-urlencoded'), e.send(a));
+          });
+        }, 0);
+      });
+    }
+  };
+  k.criticalCssBeaconInit = k.g;
+})();
+pagespeed.selectors = [
+  '#footer',
+  '#footer .copyright',
+  '#footer a',
+  '#footer h4',
+  '#footer nav',
+  '#footer nav .square-icons',
+  '#footer nav .square-icons li',
+  '#footer nav > div',
+  '#footer nav > div > div',
+  '#footer nav a',
+  '#header',
+  '#header .filters .dropdown',
+  '#header .filters .dropdown select',
+  '#header .filters .links',
+  '#header .filters .logo',
+  '#header .filters a',
+  '#header .filters a.active',
+  '#header .header-body',
+  '#header .header-body .user-hello',
+  '#header .header-logo-text',
+  '#header .header-logo-text.expressions',
+  '#header .header-logo-text.grammar',
+  '#header .header-logo-text.pronunciation',
+  '#header .header-logo-wrapper > *',
+  '#header .header-menu-button',
+  '#header .header-menu-button a',
+  '#header .menu-house',
+  '#header a',
+  '#main',
+  '#main.nowhite',
+  '#main.rightbar',
+  '#main.series',
+  '#main.seriesitem',
+  '#modal_login label',
+  '#nav',
+  '#nav .navigation',
+  '#nav .navigation ul',
+  '#nav .navigation ul li',
+  '#nav .navigation.shown',
+  '#nav_button',
+  '#nav_button > div > div',
+  '#nav_button.shown',
+  '#user',
+  '._404 #main',
+  '._404 #main h1',
+  '._404 #main h2',
+  '._alexa video',
+  '._color-adjustments .ca-wrapper',
+  '._color-adjustments .ca-wrapper .control',
+  '._color-adjustments .example-content',
+  '._landing #header .container',
+  '._landing #header .header-logo-text',
+  '._landing #main',
+  '._landing #nav.container',
+  '._landing .body-content-wrapper',
+  '._landing .gex-course',
+  '._landing .info-container',
+  '._landing .landing-program-button-container',
+  '._landing .netflix-filter-page',
+  '._landing .press-image',
+  '._landing .press-image[data-press="babbel"]',
+  '._landing .press-image[data-press="bglobe"]',
+  '._landing .press-image[data-press="economist"]',
+  '._landing .press-image[data-press="fluentin"]',
+  '._landing .press-image[data-press="fluentu"]',
+  '._landing .press-image[data-press="guardian"]',
+  '._landing .press-image[data-press="nyt"]',
+  '._landing .press-image[data-press="washington"]',
+  '._landing .splash',
+  '._landing .splash .splash-inner-wrapper',
+  '._landing .splash .splash-inner-wrapper .splash-logo',
+  '._landing .splash .splash-inner-wrapper .splash-tags',
+  '._landing .splash .splash-inner-wrapper .splash-tags select',
+  '._landing .splash .splash-inner-wrapper .splash-tags span',
+  '._landing .splash .splash-inner-wrapper .splash-text',
+  '._landing .splash .splash-inner-wrapper .splash-text h1',
+  '._landing .splash .splash-inner-wrapper .splash-text-wrapper',
+  '._landing .splash .splash-inner-wrapper .splash-text-wrapper > div',
+  '._landing .tile-image',
+  '._landing .tile-image-header',
+  '._landing .tile-image[data-image="always"]',
+  '._landing .tile-image[data-image="efficient"]',
+  '._landing .tile-image[data-image="engaging"]',
+  '._landing .tile-image[data-image="innovative"]',
+  '._landing .tile-wrapper',
+  '._landing .tile-wrapper .tile',
+  '._landing .tile-wrapper .tile.blue',
+  '._landing .tile-wrapper .tile.borderless',
+  '._landing .tile-wrapper .tile.press',
+  '._landing .tile-wrapper .tile.press .press-wrapper',
+  '._landing .tile-wrapper .tile.press p',
+  '._landing .tile-wrapper .tile.red',
+  '._landing .tile-wrapper .tile.teal',
+  '._landing .tile-wrapper .tile.testimonials .cutoff-testimonial',
+  '._landing .tile-wrapper .tile.testimonials .cutoff-testimonial-overlay',
+  '._landing .tile-wrapper .tile.testimonials div.author',
+  '._landing .tile-wrapper .tile.testimonials h2',
+  '._landing .tile-wrapper .tile.testimonials p',
+  '._landing .tile-wrapper .tile.yellow',
+  '._landing .tile-wrapper[columns="1"]',
+  '._landing .tile-wrapper[columns="1"] .tile-col-2',
+  '._landing .tile-wrapper[columns="2"]',
+  '._landing .tile-wrapper[columns="2"] .tile-col-1',
+  '._landing .tile-wrapper[columns="2"] .tile-col-2',
+  '._landing h2',
+  '._playlists #header .container',
+  '._playlists #header .header-logo-text',
+  '._playlists #main',
+  '._playlists #nav.container',
+  '._playlists .body-content-wrapper',
+  '._playlists .gex-course',
+  '._playlists .info-container',
+  '._playlists .landing-program-button-container',
+  '._playlists .netflix-filter-page',
+  '._playlists .press-image',
+  '._playlists .press-image[data-press="babbel"]',
+  '._playlists .press-image[data-press="bglobe"]',
+  '._playlists .press-image[data-press="economist"]',
+  '._playlists .press-image[data-press="fluentin"]',
+  '._playlists .press-image[data-press="fluentu"]',
+  '._playlists .press-image[data-press="guardian"]',
+  '._playlists .press-image[data-press="nyt"]',
+  '._playlists .press-image[data-press="washington"]',
+  '._playlists .splash',
+  '._playlists .splash .splash-inner-wrapper',
+  '._playlists .splash .splash-inner-wrapper .splash-logo',
+  '._playlists .splash .splash-inner-wrapper .splash-tags',
+  '._playlists .splash .splash-inner-wrapper .splash-tags select',
+  '._playlists .splash .splash-inner-wrapper .splash-tags span',
+  '._playlists .splash .splash-inner-wrapper .splash-text',
+  '._playlists .splash .splash-inner-wrapper .splash-text h1',
+  '._playlists .splash .splash-inner-wrapper .splash-text-wrapper',
+  '._playlists .splash .splash-inner-wrapper .splash-text-wrapper > div',
+  '._playlists .tile-image',
+  '._playlists .tile-image-header',
+  '._playlists .tile-image[data-image="always"]',
+  '._playlists .tile-image[data-image="efficient"]',
+  '._playlists .tile-image[data-image="engaging"]',
+  '._playlists .tile-image[data-image="innovative"]',
+  '._playlists .tile-wrapper',
+  '._playlists .tile-wrapper .tile',
+  '._playlists .tile-wrapper .tile.blue',
+  '._playlists .tile-wrapper .tile.borderless',
+  '._playlists .tile-wrapper .tile.press',
+  '._playlists .tile-wrapper .tile.press .press-wrapper',
+  '._playlists .tile-wrapper .tile.press p',
+  '._playlists .tile-wrapper .tile.red',
+  '._playlists .tile-wrapper .tile.teal',
+  '._playlists .tile-wrapper .tile.testimonials .cutoff-testimonial',
+  '._playlists .tile-wrapper .tile.testimonials .cutoff-testimonial-overlay',
+  '._playlists .tile-wrapper .tile.testimonials div.author',
+  '._playlists .tile-wrapper .tile.testimonials h2',
+  '._playlists .tile-wrapper .tile.testimonials p',
+  '._playlists .tile-wrapper .tile.yellow',
+  '._playlists .tile-wrapper[columns="1"]',
+  '._playlists .tile-wrapper[columns="1"] .tile-col-2',
+  '._playlists .tile-wrapper[columns="2"]',
+  '._playlists .tile-wrapper[columns="2"] .tile-col-1',
+  '._playlists .tile-wrapper[columns="2"] .tile-col-2',
+  '._playlists h2',
+  '._subscription-rates .faq-content.content-styles ul ul li',
+  '._subscription-rates .faq-section h2',
+  '._subscription-rates .signup-button',
+  '._subscription-rates .signup-button-wrapper',
+  '._subscription-rates .signup-button.disabled',
+  '._subscription-rates .slider-bottom-text',
+  '._subscription-rates .subscribe-faq',
+  '._subscription-rates .subscribe-faq article.faq-content',
+  '._subscription-rates .subscribe-faq header.toggle-element',
+  '._subscription-rates .subscribe-faq header.toggle-element .header-icon',
+  '._subscription-rates .subscribe-faq header.toggle-element .header-text',
+  '._subscription-rates .subscribe-faq.opened article.faq-content',
+  '._subscription-rates .subscribe-faq.opened header.toggle-element .header-icon',
+  '._subscription-rates .subscribe-slider',
+  '._subscription-rates .subscribe-slider .slider-bill',
+  '._subscription-rates .subscribe-slider .slider-bill .slider-text',
+  '._subscription-rates .subscribe-slider .slider-end',
+  '._subscription-rates .subscribe-slider .slider-free',
+  '._subscription-rates .subscribe-slider .slider-line',
+  '._subscription-rates .subscribe-slider .slider-line > div',
+  '._subscription-rates .subscribe-slider .slider-notfree',
+  '._subscription-rates .subscribe-slider .slider-space',
+  '.a.pronunciation-button',
+  '.add-to-list-popup',
+  '.add-to-list-popup a',
+  '.add-to-list-popup li.create',
+  '.add-to-list-popup li.create + li',
+  '.add-to-list-popup li.title',
+  '.alert',
+  '.alert .alert-link',
+  '.alert > p',
+  '.alert > p + p',
+  '.alert > ul',
+  '.alert h4',
+  '.alert-danger',
+  '.alert-danger .alert-link',
+  '.alert-danger hr',
+  '.alert-info',
+  '.alert-info .alert-link',
+  '.alert-info hr',
+  '.alert-success',
+  '.alert-success .alert-link',
+  '.alert-success hr',
+  '.alert-warning',
+  '.alert-warning .alert-link',
+  '.alert-warning hr',
+  '.alert.gex-course',
+  '.alert.gex-course .gex-flex',
+  '.alert.gex-course .gex-flex .gex-left',
+  '.alert.gex-course .gex-flex .gex-left h4',
+  '.alert.gex-course .gex-flex .gex-right',
+  '.alert.gex-course .gex-flex .gex-right .days',
+  '.alert.gex-course .gex-flex .gex-right .dot',
+  '.alert.gex-course .gex-flex .gex-right span',
+  '.alexa-box',
+  '.alexa-box .sentences',
+  '.alexa-box h1',
+  '.alexa-box h2',
+  '.alexa-box h3',
+  '.alexa-chooser',
+  '.alexa-chooser > div',
+  '.alexa-chooser > div > a',
+  '.alexa-chooser > div > a .nis-image',
+  '.alexa-chooser > div > a .nis-image.flip',
+  '.alexa-chooser.big',
+  '.alexa-enable',
+  '.alexa-enable img',
+  '.alexa-logo',
+  '.alexa-logo.small',
+  '.alexa-menu-item',
+  '.alexa-menu-item a',
+  '.am-receipt .am-receipt-discounted-price',
+  '.am-receipt .am-receipt-price',
+  '.am-receipt .am-receipt-qty',
+  '.am-receipt .am-receipt-row-delimiter td',
+  '.am-receipt .am-receipt-terms',
+  '.am-receipt .am-receipt-unit-price',
+  '.am-receipt table.am-receipt-table',
+  '.am-receipt td',
+  '.am-receipt td.am-receipt-indent',
+  '.am-receipt td.am-receipt-terms',
+  '.am-receipt td.am-receipt-total',
+  '.am-receipt th',
+  '.app-icon-android',
+  '.app-icon-container',
+  '.app-icon-container-item',
+  '.app-icon-ios',
+  '.app-icon-modal-container',
+  '.audio-anchor',
+  '.bc-container',
+  '.body-content',
+  '.breadcrumbs',
+  '.breadcrumbs .flashcards',
+  '.breadcrumbs .flashcards-wrapper',
+  '.breadcrumbs .search input',
+  '.breadcrumbs > .list',
+  '.breadcrumbs > .list li',
+  '.breadcrumbs > .list li a',
+  '.breadcrumbs a',
+  '.button',
+  '.button.primary',
+  '.button.red',
+  '.button.secondary',
+  '.button.success',
+  '.ca-background .content-container.text-content',
+  '.ca-background .list-item.episode',
+  '.ca-background .text-cutoff-gradient',
+  '.ca-menu-item',
+  '.ca-menu-item a',
+  '.ca-tooltips [data-tooltip-reference]',
+  '.ca-tooltips [data-tooltip]',
+  '.catalog-container',
+  '.catalog-container .inner',
+  '.centre',
+  '.chapter-tabs',
+  '.chapter-tabs a',
+  '.chapter-tabs a.active',
+  '.clock-date',
+  '.component-name',
+  '.component-name a',
+  '.component-name span',
+  '.container',
+  '.content',
+  '.content-container',
+  '.content-container.text-content',
+  '.content-container.text-content h1',
+  '.content-header-title',
+  '.content-image .image-credits',
+  '.content-image img',
+  '.content-styles .english-indication',
+  '.content-styles h4',
+  '.content-styles ol',
+  '.content-styles ol li',
+  '.content-styles ol[type="A"] li',
+  '.content-styles ol[type="I"] li',
+  '.content-styles ol[type="a"] li',
+  '.content-styles ol[type="i"] li',
+  '.content-styles table.standardtable',
+  '.content-styles table.standardtable td',
+  '.content-styles table.standardtable th',
+  '.content-styles table.standardtable.no-border',
+  '.content-styles table.standardtable.no-border td',
+  '.content-styles table.standardtable.no-border th',
+  '.content-styles ul',
+  '.content-styles ul li',
+  '.content-title',
+  '.control',
+  '.control__input',
+  '.control__input + .control__label',
+  '.control__input[type="checkbox"] + .control__label',
+  '.control__input[type="checkbox"][disabled] + .control__label',
+  '.control__input[type="radio"] + .control__label',
+  '.control__input[type="radio"][disabled] + .control__label',
+  '.control__label',
+  '.controls',
+  '.controls .audio-progress',
+  '.controls .audio-progress .bar',
+  '.controls .audio-progress .bar.animated',
+  '.controls .download-audio',
+  '.controls .download-pdf',
+  '.controls .draggable',
+  '.controls .inline-player .download-audio',
+  '.controls .inline-player .download-pdf',
+  '.controls .inline-player .player-forward',
+  '.controls .inline-player .player-next',
+  '.controls .inline-player .player-playing',
+  '.controls .inline-player .player-prev',
+  '.controls .inline-player .player-rewind',
+  '.controls .inline-player .player-speed-normal',
+  '.controls .inline-player .player-speed-slow',
+  '.controls .inline-player .player-volume',
+  '.controls .inline-player .pronunciation-button',
+  '.controls .inline-player [data-action="add-to-list"]',
+  '.controls .player-forward',
+  '.controls .player-next',
+  '.controls .player-pause',
+  '.controls .player-play',
+  '.controls .player-prev',
+  '.controls .player-rewind',
+  '.controls .player-speed',
+  '.controls .player-speed-normal',
+  '.controls .player-speed-slow',
+  '.controls .player-volume',
+  '.controls .player-volume.mute',
+  '.controls .playlist-controls',
+  '.controls .playlist-controls .playlist-controls-autoplay',
+  '.controls .playlist-controls .playlist-controls-autoplay .label',
+  '.controls .playlist-controls .playlist-controls-autoplay span.disabled',
+  '.controls .playlist-controls .playlist-controls-autoplay span.enabled',
+  '.controls .playlist-controls .playlist-controls-autoplay.enabled span.disabled',
+  '.controls .playlist-controls .playlist-controls-autoplay.enabled span.enabled',
+  '.controls .playlist-controls .playlist-controls-item',
+  '.controls .playlist-controls .playlist-controls-item .playlist-controls-icon',
+  '.controls .playlist-controls .playlist-controls-item .playlist-controls-image',
+  '.controls .playlist-controls .playlist-controls-item .playlist-controls-image .playlist-controls-icon',
+  '.controls .playlist-controls .playlist-controls-item .playlist-controls-image .playlist-controls-icon .icon',
+  '.controls .playlist-controls .playlist-controls-item .playlist-controls-image .playlist-controls-icon .icon.closing',
+  '.controls .playlist-controls .playlist-controls-item .playlist-controls-image .playlist-controls-icon .icon.dialog',
+  '.controls .playlist-controls .playlist-controls-item .playlist-controls-image .playlist-controls-icon .icon.expressions',
+  '.controls .playlist-controls .playlist-controls-item .playlist-controls-image .playlist-controls-icon .icon.grammar',
+  '.controls .playlist-controls .playlist-controls-item .playlist-controls-image .playlist-controls-icon .icon.opening',
+  '.controls .playlist-controls .playlist-controls-item .playlist-controls-image img',
+  '.controls .playlist-controls .playlist-controls-item .playlist-controls-label',
+  '.controls .playlist-controls .playlist-controls-item.left .playlist-controls-image',
+  '.controls .playlist-controls .playlist-controls-item.right .playlist-controls-image',
+  '.controls .playlist-controls.expanded',
+  '.controls .playlist-controls.expanded .playlist-controls-autoplay .label',
+  '.controls .playlist-controls.expanded .playlist-controls-item .playlist-controls-icon',
+  '.controls .playlist-controls.expanded .playlist-controls-item .playlist-controls-image',
+  '.controls .playlist-controls.expanded .playlist-controls-item .playlist-controls-image img',
+  '.controls .playlist-controls.expanded .playlist-controls-item .playlist-controls-image.episodebg',
+  '.controls .playlist-controls.expanded .playlist-controls-item .playlist-controls-label',
+  '.controls .pronunciation-button',
+  '.controls .timer',
+  '.controls .timer-bar',
+  '.controls .toolbar',
+  '.controls .toolbar > div',
+  '.controls .toolbar > div > *',
+  '.controls .toolbar > div a',
+  '.controls .toolbar > div.player',
+  '.controls > *',
+  '.controls [data-action="add-to-list"]',
+  '.controls [data-action="add-to-list"].active',
+  '.controls div.player-volume-wrapper',
+  '.controls div.player-volume-wrapper .ui-slider',
+  '.controls div.player-volume-wrapper .ui-slider-handle',
+  '.controls div.player-volume-wrapper .ui-slider-range',
+  '.controls div.player-volume-wrapper.opened',
+  '.controls div.player-volume-wrapper.opened .ui-slider-handle',
+  '.controls-playlist li',
+  '.controls-playlist li.active',
+  '.cop-image',
+  '.course-indicator',
+  '.course-indicator.done',
+  '.course-indicator.empty',
+  '.course-indicator.half',
+  '.course-indicator.skip',
+  '.cutoff',
+  '.cutoff-container',
+  '.dataTables_wrapper',
+  '.dataTables_wrapper .dataTables_filter',
+  '.dataTables_wrapper .dataTables_filter input',
+  '.dataTables_wrapper .dataTables_info',
+  '.dataTables_wrapper .dataTables_length',
+  '.dataTables_wrapper .dataTables_paginate',
+  '.dataTables_wrapper .dataTables_paginate .ellipsis',
+  '.dataTables_wrapper .dataTables_paginate .paginate_button',
+  '.dataTables_wrapper .dataTables_paginate .paginate_button.current',
+  '.dataTables_wrapper .dataTables_paginate .paginate_button.disabled',
+  '.dataTables_wrapper .dataTables_processing',
+  '.dataTables_wrapper .dataTables_scroll',
+  '.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody',
+  '.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody > table > tbody > tr > td',
+  '.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody > table > tbody > tr > td > div.dataTables_sizing',
+  '.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody > table > tbody > tr > th',
+  '.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody > table > tbody > tr > th > div.dataTables_sizing',
+  '.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody > table > thead > tr > td',
+  '.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody > table > thead > tr > td > div.dataTables_sizing',
+  '.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody > table > thead > tr > th',
+  '.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody > table > thead > tr > th > div.dataTables_sizing',
+  '.dataTables_wrapper.no-footer .dataTables_scrollBody',
+  '.dataTables_wrapper.no-footer div.dataTables_scrollBody > table',
+  '.dataTables_wrapper.no-footer div.dataTables_scrollHead table.dataTable',
+  '.dd',
+  '.dd-collapsed .dd-list',
+  '.dd-content',
+  '.dd-content.testimonial',
+  '.dd-dragel',
+  '.dd-dragel > .dd-item .dd-handle',
+  '.dd-dragel > .dd-item > .dd-content',
+  '.dd-empty',
+  '.dd-handle',
+  '.dd-item',
+  '.dd-item > button',
+  '.dd-item.dd-collapsed > button',
+  '.dd-item.dd-collapsed > button[data-action="collapse"]',
+  '.dd-list',
+  '.dd-list .dd-list',
+  '.dd-placeholder',
+  '.demo',
+  '.demo .demo-button',
+  '.demo-container',
+  '.demo-spacer',
+  '.dialog-table',
+  '.dialog-table .leftcol',
+  '.display-hdpi',
+  '.display-ldpi',
+  '.display-mdpi',
+  '.display-xhdpi',
+  '.dropdown',
+  '.dropdown .divider',
+  '.dropdown > a',
+  '.dropdown a',
+  '.dropdown input[type="checkbox"]',
+  '.dropdown input[type="checkbox"] + ul',
+  '.dropdown ul',
+  '.dropdown ul li',
+  '.dropdown ul li a',
+  '.dropdown ul.right',
+  '.education-calc',
+  '.education-calc > .wrapper',
+  '.education-calc > .wrapper > .element',
+  '.education-calc > .wrapper > .element > div',
+  '.gift-card-creator',
+  '.guts-image',
+  '.header-body .menu-house',
+  '.header-nav-wrapper',
+  '.hidden',
+  '.icon-facebook',
+  '.icon-instagram',
+  '.icon-rss',
+  '.icon-twitter',
+  '.icon-youtube',
+  '.info-container',
+  '.info-container.text-content',
+  '.info-container.text-content h1',
+  '.inline',
+  '.inline-player',
+  '.inline-player .a.pronunciation-button',
+  '.inline-player .controls .download-audio',
+  '.inline-player .controls .download-pdf',
+  '.inline-player .controls .player-forward',
+  '.inline-player .controls .player-next',
+  '.inline-player .controls .player-playing',
+  '.inline-player .controls .player-prev',
+  '.inline-player .controls .player-rewind',
+  '.inline-player .controls .player-speed-normal',
+  '.inline-player .controls .player-speed-slow',
+  '.inline-player .controls .player-volume',
+  '.inline-player .controls .pronunciation-button',
+  '.inline-player .controls [data-action="add-to-list"]',
+  '.inline-player .player-pause',
+  '.inline-player .player-play',
+  '.inline-player .player-playing',
+  '.inline-player .player-playing.playing',
+  '.inline-player .timer',
+  '.input',
+  '.input[disabled]',
+  '.iziToast',
+  '.iziToast .fadeIn',
+  '.iziToast .revealIn',
+  '.iziToast .slideIn',
+  '.iziToast > .iziToast-body',
+  '.iziToast > .iziToast-body .iziToast-buttons',
+  '.iziToast > .iziToast-body .iziToast-icon',
+  '.iziToast > .iziToast-body .iziToast-icon.ico-error',
+  '.iziToast > .iziToast-body .iziToast-icon.ico-info',
+  '.iziToast > .iziToast-body .iziToast-icon.ico-question',
+  '.iziToast > .iziToast-body .iziToast-icon.ico-success',
+  '.iziToast > .iziToast-body .iziToast-icon.ico-warning',
+  '.iziToast > .iziToast-body .iziToast-inputs',
+  '.iziToast > .iziToast-body .iziToast-message',
+  '.iziToast > .iziToast-body .iziToast-texts',
+  '.iziToast > .iziToast-body .iziToast-title',
+  '.iziToast > .iziToast-close',
+  '.iziToast > .iziToast-cover',
+  '.iziToast > .iziToast-progressbar',
+  '.iziToast > .iziToast-progressbar > div',
+  '.iziToast-capsule',
+  '.iziToast-capsule *',
+  '.iziToast-overlay',
+  '.iziToast-overlay.fadeIn',
+  '.iziToast-overlay.fadeOut',
+  '.iziToast-rtl',
+  '.iziToast-rtl .iziToast-body',
+  '.iziToast-rtl .iziToast-body .iziToast-buttons',
+  '.iziToast-rtl .iziToast-body .iziToast-icon',
+  '.iziToast-rtl .iziToast-body .iziToast-inputs',
+  '.iziToast-rtl .iziToast-body .iziToast-message',
+  '.iziToast-rtl .iziToast-body .iziToast-texts',
+  '.iziToast-rtl .iziToast-body .iziToast-title',
+  '.iziToast-rtl .iziToast-close',
+  '.iziToast-rtl .iziToast-cover',
+  '.iziToast-target',
+  '.iziToast-target .iziToast',
+  '.iziToast-target .iziToast-capsule',
+  '.iziToast-target .iziToast-capsule .iziToast',
+  '.iziToast-wrapper',
+  '.iziToast-wrapper .iziToast.iziToast-balloon',
+  '.iziToast-wrapper button.never',
+  '.iziToast-wrapper button.ok',
+  '.iziToast-wrapper-bottomCenter',
+  '.iziToast-wrapper-bottomLeft',
+  '.iziToast-wrapper-bottomLeft .iziToast.iziToast-balloon',
+  '.iziToast-wrapper-bottomRight',
+  '.iziToast-wrapper-center',
+  '.iziToast-wrapper-topCenter',
+  '.iziToast-wrapper-topLeft',
+  '.iziToast-wrapper-topLeft .iziToast.iziToast-balloon',
+  '.iziToast-wrapper-topRight',
+  '.iziToast.bounceInDown',
+  '.iziToast.bounceInLeft',
+  '.iziToast.bounceInRight',
+  '.iziToast.bounceInUp',
+  '.iziToast.fadeIn',
+  '.iziToast.fadeInDown',
+  '.iziToast.fadeInLeft',
+  '.iziToast.fadeInRight',
+  '.iziToast.fadeInUp',
+  '.iziToast.fadeOut',
+  '.iziToast.fadeOutDown',
+  '.iziToast.fadeOutLeft',
+  '.iziToast.fadeOutRight',
+  '.iziToast.fadeOutUp',
+  '.iziToast.flipInX',
+  '.iziToast.flipOutX',
+  '.iziToast.iziToast-animateInside .iziToast-buttons-child',
+  '.iziToast.iziToast-animateInside .iziToast-icon',
+  '.iziToast.iziToast-animateInside .iziToast-inputs-child',
+  '.iziToast.iziToast-animateInside .iziToast-message',
+  '.iziToast.iziToast-animateInside .iziToast-title',
+  '.iziToast.iziToast-balloon',
+  '.iziToast.iziToast-balloon .iziToast-progressbar',
+  '.iziToast.iziToast-balloon > div',
+  '.iziToast.iziToast-color-blue',
+  '.iziToast.iziToast-color-dark',
+  '.iziToast.iziToast-color-green',
+  '.iziToast.iziToast-color-orange',
+  '.iziToast.iziToast-color-red',
+  '.iziToast.iziToast-color-yellow',
+  '.iziToast.iziToast-layout2 .iziToast-body .iziToast-message',
+  '.iziToast.iziToast-layout2 .iziToast-body .iziToast-texts',
+  '.iziToast.iziToast-layout3',
+  '.iziToast.iziToast-rtl .iziToast-cover',
+  '.iziToast.iziToast-theme-dark',
+  '.iziToast.iziToast-theme-dark .iziToast-buttons > a',
+  '.iziToast.iziToast-theme-dark .iziToast-buttons > button',
+  '.iziToast.iziToast-theme-dark .iziToast-buttons > input',
+  '.iziToast.iziToast-theme-dark .iziToast-close',
+  '.iziToast.iziToast-theme-dark .iziToast-icon',
+  '.iziToast.iziToast-theme-dark .iziToast-icon.ico-error',
+  '.iziToast.iziToast-theme-dark .iziToast-icon.ico-info',
+  '.iziToast.iziToast-theme-dark .iziToast-icon.ico-question',
+  '.iziToast.iziToast-theme-dark .iziToast-icon.ico-success',
+  '.iziToast.iziToast-theme-dark .iziToast-icon.ico-warning',
+  '.iziToast.iziToast-theme-dark .iziToast-message',
+  '.iziToast.iziToast-theme-dark .iziToast-title',
+  '.iziToast.revealIn',
+  '.iziToast.slideIn',
+  '.landing-content-container',
+  '.light-links a',
+  '.list-item',
+  '.list-item .episode-news-list',
+  '.list-item .episode-news-list > .row',
+  '.list-item .episode-news-list > .row > *',
+  '.list-item > .episode-content',
+  '.list-item > .episode-content > .episode-section',
+  '.list-item > header',
+  '.list-item > header .crumb a',
+  '.list-item > header .more',
+  '.list-item > header .more a',
+  '.list-item > header .title',
+  '.list-item.active',
+  '.list-item.active > header',
+  '.list-item.active.catalog',
+  '.list-item.active.catalog > header',
+  '.list-item.alexa .content',
+  '.list-item.alexa header',
+  '.list-item.catalog',
+  '.list-item.catalog .expand-list',
+  '.list-item.catalog > header',
+  '.list-item.catalog h4',
+  '.list-item.episode',
+  '.list-item.episode > .episode-content > .episode-section',
+  '.list-item.episode > header',
+  '.list-item.episode.active',
+  '.list-item.episode.active > header',
+  '.loading',
+  '.loading.right',
+  '.login-footer',
+  '.login-footer a',
+  '.login-footer.big',
+  '.login-footer.big > div',
+  '.main-container.ep-container',
+  '.menu-container',
+  '.menu-container .separator',
+  '.menu-container a',
+  '.menu-header-container',
+  '.menu-heading',
+  '.menu-heading .menu-note',
+  '.menu-heading > div',
+  '.menu-heading.toggle',
+  '.menu-heading.toggle .toggle-icon',
+  '.menu-heading.toggle > div',
+  '.menu-heading.toggle.opened .menu-note',
+  '.menu-heading.toggle.opened .toggle-icon',
+  '.menu-house',
+  '.menu-item',
+  '.menu-items',
+  '.menu-items.indent',
+  '.menu-items.opened',
+  '.menu-switch-container',
+  '.menu-switch-heading',
+  '.modal',
+  '.modal .modal-container',
+  '.modal .modal-overlay',
+  '.modal main',
+  '.modal.is-open',
+  '.nav-icons',
+  '.nav-icons div.ul',
+  '.nav-icons div.ul a',
+  '.nav-icons div.ul a > .icon',
+  '.nav-icons div.ul a.nav-icon-closing > .icon',
+  '.nav-icons div.ul a.nav-icon-dialog > .icon',
+  '.nav-icons div.ul a.nav-icon-expressions > .icon',
+  '.nav-icons div.ul a.nav-icon-grammar > .icon',
+  '.nav-icons div.ul a.nav-icon-lesson > .icon',
+  '.nav-icons div.ul a.nav-icon-main-episodes > .icon',
+  '.nav-icons div.ul a.nav-icon-main-expressions > .icon',
+  '.nav-icons div.ul a.nav-icon-main-grammar > .icon',
+  '.nav-icons div.ul a.nav-icon-monolog > .icon',
+  '.nav-icons div.ul a.nav-icon-opening > .icon',
+  '.nav-icons div.ul a.nav-icon-pronunciation > .icon',
+  '.nav-icons div.ul a.nav-icon-quiz > .icon',
+  '.nav-icons div.ul div.li',
+  '.nav-icons.catalog',
+  '.nav-icons.catalog div.ul div.li a',
+  '.nav-icons.series-icons',
+  '.nav-icons.series-icons .icon > .overlay',
+  '.nav-icons.series-icons .li.active',
+  '.nav-icons.series-icons .li.active .icon > .overlay',
+  '.nav-icons.series-icons .slick-list',
+  '.nav-icons.series-icons a .icon > .overlay',
+  '.nav-icons.series-icons div.ul',
+  '.nav-icons.series-icons div.ul div.li',
+  '.nav-icons.series-icons div.ul div.li a',
+  '.navicons-arrows-wrapper',
+  '.navicons-arrows-wrapper .navicons-arrows',
+  '.navicons-arrows-wrapper .navicons-arrows .navicons-arrow',
+  '.navicons-arrows-wrapper .navicons-arrows .navicons-arrow.left',
+  '.navicons-arrows-wrapper .navicons-arrows .navicons-arrow.left.slick-disabled',
+  '.navicons-arrows-wrapper .navicons-arrows .navicons-arrow.right',
+  '.navicons-arrows-wrapper .navicons-arrows .navicons-arrow.right.slick-disabled',
+  '.nestable-episode',
+  '.nestable-url',
+  '.netflix-arrows-wrapper',
+  '.netflix-arrows-wrapper .netflix-arrows',
+  '.netflix-arrows-wrapper .netflix-arrows .netflix-arrow',
+  '.netflix-arrows-wrapper .netflix-arrows .netflix-arrow.left',
+  '.netflix-arrows-wrapper .netflix-arrows .netflix-arrow.left.slick-disabled',
+  '.netflix-arrows-wrapper .netflix-arrows .netflix-arrow.right',
+  '.netflix-arrows-wrapper .netflix-arrows .netflix-arrow.right.slick-disabled',
+  '.netflix-item',
+  '.netflix-item .netflix-thumbnail',
+  '.netflix-item .netflix-thumbnail .thumbnail-content-wrapper',
+  '.netflix-item .netflix-thumbnail .thumbnail-content-wrapper.chapter',
+  '.netflix-item .netflix-thumbnail .thumbnail-content-wrapper.expressions-topic',
+  '.netflix-item .netflix-thumbnail .thumbnail-content-wrapper.grammar-topic',
+  '.netflix-item .netflix-thumbnail h4',
+  '.netflix-item .netflix-thumbnail img',
+  '.netflix-item-wrapper',
+  '.netflix-item-wrapper h4',
+  '.netflix-item-wrapper.active .thumbnail-content-wrapper.chapter',
+  '.netflix-item-wrapper.active .thumbnail-content-wrapper.expressions-topic',
+  '.netflix-item-wrapper.active .thumbnail-content-wrapper.grammar-topic',
+  '.netflix-item-wrapper.active .thumbnail-content-wrapper.guts',
+  '.netflix-item-wrapper.active .thumbnail-content-wrapper.news-clamp',
+  '.netflix-item-wrapper.expressions-topic p',
+  '.netflix-item.episode .netflix-thumbnail',
+  '.netflix-line',
+  '.netflix-line .slick-slide',
+  '.netflix-line .slick-slide a',
+  '.netflix-line-row',
+  '.netflix-line-toolbar',
+  '.netflix-line-toolbar .loading-indicator',
+  '.netflix-line-toolbar a',
+  '.netflix-line-wrapper',
+  '.netflix-loading',
+  '.netflix-loading .loading',
+  '.netflix-loading-content',
+  '.netflix-title-row',
+  '.netflix-title-row h3',
+  '.nis-image',
+  '.no-text-overflow',
+  '.overlay-320px',
+  '.prev-next',
+  '.prev-next .button',
+  '.prev-next span',
+  '.pronunciation-page .chart',
+  '.pronunciation-page .practice-buttons',
+  '.pronunciation-page .practice-buttons a',
+  '.pronunciation-page .pronunciation-icon .icon',
+  '.pronunciation-page .pronunciation-icon h1',
+  '.pronunciation-page .references',
+  '.pronunciation-page .references a',
+  '.pronunciation-page .references h3',
+  '.pronunciation-page a.button',
+  '.pronunciation-page p.margin',
+  '.pronunciation-page p.step',
+  '.pronunciation-page video',
+  '.quiz-item-correct',
+  '.quiz-item-incorrect',
+  '.quiz-wrapper',
+  '.read-more .toggle-content',
+  '.read-more .toggle-icon',
+  '.read-more .toggle-icon span.less',
+  '.read-more.opened .toggle-content',
+  '.read-more.opened .toggle-icon',
+  '.read-more.opened .toggle-icon span.less',
+  '.read-more.opened .toggle-icon span.more',
+  '.recorder',
+  '.recorder .audio-progress',
+  '.recorder .audio-progress .bar',
+  '.recorder .buttons',
+  '.recorder .handle',
+  '.recorder .microphone',
+  '.recorder .recorder-pause',
+  '.recorder .recorder-play',
+  '.recorder .recorder-record',
+  '.recorder .recorder-stop',
+  '.responsive-edit',
+  '.responsive-edit > a',
+  '.responsive-edit > a.left',
+  '.responsive-edit > a.remove',
+  '.responsive-edit > a.right',
+  '.responsive-tabs > .tab-container',
+  '.responsive-tabs > .tab-container article > header .tab-header',
+  '.responsive-tabs > .tab-container article > header .tab-header a',
+  '.responsive-tabs > .tab-container article > header .tab-header.add',
+  '.responsive-tabs > .tab-container article > section .tab-inner',
+  '.responsive-tabs > .tab-container article > section .tab-inner.active',
+  '.responsive-tabs > nav',
+  '.responsive-tabs > nav li',
+  '.responsive-tabs > nav li + li',
+  '.responsive-tabs > nav li > a',
+  '.responsive-tabs > nav li > ul',
+  '.responsive-tabs > nav li.active',
+  '.responsive-tabs > nav li.active > a',
+  '.responsive-tabs > nav li.group.active',
+  '.responsive-tabs > nav li.group.active > ul',
+  '.responsive-tabs > nav li.group.active > ul > li',
+  '.responsive-tabs > nav ul',
+  '.rightbar-item',
+  '.rightbar-item.active',
+  '.select',
+  '.select[disabled]',
+  '.selectize-control',
+  '.selectize-control .selectize-input.disabled',
+  '.selectize-control.multi .selectize-input > div',
+  '.selectize-control.multi .selectize-input > div.active',
+  '.selectize-control.multi .selectize-input [data-value]',
+  '.selectize-control.multi .selectize-input [data-value].active',
+  '.selectize-control.multi .selectize-input.disabled > div',
+  '.selectize-control.multi .selectize-input.disabled > div.active',
+  '.selectize-control.multi .selectize-input.disabled [data-value]',
+  '.selectize-control.multi .selectize-input.disabled [data-value] .remove',
+  '.selectize-control.multi .selectize-input.has-items',
+  '.selectize-control.plugin-drag_drop .ui-sortable-helper',
+  '.selectize-control.plugin-drag_drop .ui-sortable-placeholder',
+  '.selectize-control.plugin-drag_drop.multi > .selectize-input > div.ui-sortable-placeholder',
+  '.selectize-control.plugin-remove_button .disabled [data-value] .remove',
+  '.selectize-control.plugin-remove_button .remove-single',
+  '.selectize-control.plugin-remove_button [data-value]',
+  '.selectize-control.plugin-remove_button [data-value] .remove',
+  '.selectize-control.plugin-remove_button [data-value].active .remove',
+  '.selectize-control.rtl .selectize-input > input',
+  '.selectize-control.rtl.single .selectize-input',
+  '.selectize-control.single .selectize-input',
+  '.selectize-control.single .selectize-input input',
+  '.selectize-control.single .selectize-input.dropdown-active',
+  '.selectize-control.single .selectize-input.input-active',
+  '.selectize-control.single .selectize-input.input-active input',
+  '.selectize-dropdown',
+  '.selectize-dropdown .active',
+  '.selectize-dropdown .active.create',
+  '.selectize-dropdown .create',
+  '.selectize-dropdown .optgroup',
+  '.selectize-dropdown .optgroup .optgroup-header',
+  '.selectize-dropdown .optgroup-header',
+  '.selectize-dropdown .option',
+  '.selectize-dropdown [data-disabled]',
+  '.selectize-dropdown [data-disabled] [data-selectable].option',
+  '.selectize-dropdown [data-selectable]',
+  '.selectize-dropdown [data-selectable] .highlight',
+  '.selectize-dropdown [data-selectable].option',
+  '.selectize-dropdown-content',
+  '.selectize-dropdown-header',
+  '.selectize-dropdown-header-close',
+  '.selectize-dropdown.plugin-optgroup_columns .optgroup',
+  '.selectize-dropdown.plugin-optgroup_columns .optgroup-header',
+  '.selectize-dropdown.single',
+  '.selectize-input',
+  '.selectize-input > *',
+  '.selectize-input > input',
+  '.selectize-input input',
+  '.selectize-input.disabled',
+  '.selectize-input.disabled *',
+  '.selectize-input.dropdown-active',
+  '.selectize-input.focus',
+  '.selectize-input.full',
+  '.series-container',
+  '.series-rightbar',
+  '.series-title-row',
+  '.series-title-row > div',
+  '.slick-arrow.slick-hidden',
+  '.slick-initialized .slick-slide',
+  '.slick-list',
+  '.slick-list.dragging',
+  '.slick-loading .slick-slide',
+  '.slick-loading .slick-track',
+  '.slick-slide',
+  '.slick-slide img',
+  '.slick-slide.dragging img',
+  '.slick-slide.slick-loading img',
+  '.slick-slider',
+  '.slick-slider .slick-list',
+  '.slick-slider .slick-track',
+  '.slick-track',
+  '.slick-vertical .slick-slide',
+  '.subscription-container',
+  '.subscriptions-wrapper .subscription-box .subscription-prices .subscription-element',
+  '.subscriptions-wrapper .subscription-column .subscription-prices .asterisk',
+  '.subscriptions-wrapper .subscription-column .subscription-prices .description',
+  '.subscriptions-wrapper .subscription-column .subscription-prices .price',
+  '.switch-item',
+  '.switch-item .radio-item',
+  '.switch-item input',
+  '.text-cutoff-gradient',
+  '.text-cutoff-gradient.big',
+  '.thumbnail-date',
+  '.thumbnail-desc',
+  '.tile-container',
+  '.tile-container.nowhite',
+  '.tile-container.tabs',
+  '.transcript-content',
+  '.transcript-content .content',
+  '.ui-helper-hidden-accessible',
+  '.ui-slider',
+  '.ui-slider .ui-slider-handle',
+  '.ui-slider .ui-slider-range',
+  '.ui-slider-horizontal',
+  '.ui-slider-horizontal .ui-slider-handle',
+  '.ui-slider-horizontal .ui-slider-range',
+  '.ui-slider-horizontal .ui-slider-range-max',
+  '.ui-slider-horizontal .ui-slider-range-min',
+  '.ui-slider-vertical',
+  '.ui-slider-vertical .ui-slider-handle',
+  '.ui-slider-vertical .ui-slider-range',
+  '.ui-slider-vertical .ui-slider-range-max',
+  '.ui-slider-vertical .ui-slider-range-min',
+  '.ui-slider.ui-state-disabled .ui-slider-handle',
+  '.ui-slider.ui-state-disabled .ui-slider-range',
+  '.ui-tooltip',
+  '.ui-tooltip h3',
+  '.ui-tooltip h4',
+  '.volume-wrapper-overlay',
+  '[data-tooltip-reference]',
+  '[data-tooltip-reference][aria-describedby]',
+  '[data-tooltip]',
+  '[data-tooltip][aria-describedby]',
+  '[dir="rtl"] .slick-slide',
+  'a',
+  'a.button',
+  'a.netflix-item-wrapper',
+  'abbr',
+  'acronym',
+  'address',
+  'applet',
+  'article',
+  'aside',
+  'audio',
+  'b',
+  'big',
+  'blockquote',
+  'body',
+  'body._profile #main h4',
+  'body._profile #main h6',
+  'body._profile #main li',
+  'body._profile #main ul',
+  'body._signup #main .agreement',
+  'body._signup #main .asterisk',
+  'body._upgrade form ul a',
+  'body._upgrade ul.upgrades li',
+  'button',
+  'canvas',
+  'caption',
+  'center',
+  'cite',
+  'code',
+  'dd',
+  'del',
+  'details',
+  'dfn',
+  'div',
+  'div.table-wrapper',
+  'div.table-wrapper div.scrollable',
+  'dl',
+  'dt',
+  'em',
+  'embed',
+  'fieldset',
+  'figcaption',
+  'figure',
+  'footer',
+  'form',
+  'h1',
+  'h2',
+  'h3',
+  'h4',
+  'h5',
+  'h6',
+  'header',
+  'html',
+  'i',
+  'iframe',
+  'img',
+  'input',
+  'input.small',
+  'ins',
+  'kbd',
+  'label',
+  'label .label-note',
+  'legend',
+  'li',
+  'main a',
+  'mark',
+  'menu',
+  'nav',
+  'object',
+  'ol',
+  'output',
+  'p',
+  'pre',
+  'q',
+  'ruby',
+  's',
+  'samp',
+  'section',
+  'select',
+  'small',
+  'span',
+  'strike',
+  'strong',
+  'summary',
+  'table',
+  'table td',
+  'table th',
+  'table.dataTable',
+  'table.dataTable tbody td',
+  'table.dataTable tbody td.dt-body-center',
+  'table.dataTable tbody td.dt-body-justify',
+  'table.dataTable tbody td.dt-body-left',
+  'table.dataTable tbody td.dt-body-nowrap',
+  'table.dataTable tbody td.dt-body-right',
+  'table.dataTable tbody th',
+  'table.dataTable tbody th.dt-body-center',
+  'table.dataTable tbody th.dt-body-justify',
+  'table.dataTable tbody th.dt-body-left',
+  'table.dataTable tbody th.dt-body-nowrap',
+  'table.dataTable tbody th.dt-body-right',
+  'table.dataTable tbody tr',
+  'table.dataTable tbody tr.selected',
+  'table.dataTable td',
+  'table.dataTable td.dataTables_empty',
+  'table.dataTable td.dt-center',
+  'table.dataTable td.dt-justify',
+  'table.dataTable td.dt-left',
+  'table.dataTable td.dt-nowrap',
+  'table.dataTable td.dt-right',
+  'table.dataTable tfoot td',
+  'table.dataTable tfoot td.dt-head-center',
+  'table.dataTable tfoot td.dt-head-justify',
+  'table.dataTable tfoot td.dt-head-left',
+  'table.dataTable tfoot td.dt-head-nowrap',
+  'table.dataTable tfoot td.dt-head-right',
+  'table.dataTable tfoot th',
+  'table.dataTable tfoot th.dt-head-center',
+  'table.dataTable tfoot th.dt-head-justify',
+  'table.dataTable tfoot th.dt-head-left',
+  'table.dataTable tfoot th.dt-head-nowrap',
+  'table.dataTable tfoot th.dt-head-right',
+  'table.dataTable th',
+  'table.dataTable th.dt-center',
+  'table.dataTable th.dt-justify',
+  'table.dataTable th.dt-left',
+  'table.dataTable th.dt-nowrap',
+  'table.dataTable th.dt-right',
+  'table.dataTable thead .sorting',
+  'table.dataTable thead .sorting_asc',
+  'table.dataTable thead .sorting_asc_disabled',
+  'table.dataTable thead .sorting_desc',
+  'table.dataTable thead .sorting_desc_disabled',
+  'table.dataTable thead td',
+  'table.dataTable thead td.dt-head-center',
+  'table.dataTable thead td.dt-head-justify',
+  'table.dataTable thead td.dt-head-left',
+  'table.dataTable thead td.dt-head-nowrap',
+  'table.dataTable thead td.dt-head-right',
+  'table.dataTable thead th',
+  'table.dataTable thead th.dt-head-center',
+  'table.dataTable thead th.dt-head-justify',
+  'table.dataTable thead th.dt-head-left',
+  'table.dataTable thead th.dt-head-nowrap',
+  'table.dataTable thead th.dt-head-right',
+  'table.dataTable.cell-border tbody td',
+  'table.dataTable.cell-border tbody th',
+  'table.dataTable.cell-border tbody tr td',
+  'table.dataTable.cell-border tbody tr th',
+  'table.dataTable.compact tbody td',
+  'table.dataTable.compact tbody th',
+  'table.dataTable.compact tfoot td',
+  'table.dataTable.compact tfoot th',
+  'table.dataTable.compact thead td',
+  'table.dataTable.compact thead th',
+  'table.dataTable.display tbody td',
+  'table.dataTable.display tbody th',
+  'table.dataTable.display tbody tr',
+  'table.dataTable.display tbody tr > .sorting_1',
+  'table.dataTable.display tbody tr > .sorting_2',
+  'table.dataTable.display tbody tr > .sorting_3',
+  'table.dataTable.display tbody tr td',
+  'table.dataTable.display tbody tr th',
+  'table.dataTable.display tbody tr.even > .sorting_1',
+  'table.dataTable.display tbody tr.even > .sorting_2',
+  'table.dataTable.display tbody tr.even > .sorting_3',
+  'table.dataTable.display tbody tr.even.selected > .sorting_1',
+  'table.dataTable.display tbody tr.even.selected > .sorting_2',
+  'table.dataTable.display tbody tr.even.selected > .sorting_3',
+  'table.dataTable.display tbody tr.odd',
+  'table.dataTable.display tbody tr.odd > .sorting_1',
+  'table.dataTable.display tbody tr.odd > .sorting_2',
+  'table.dataTable.display tbody tr.odd > .sorting_3',
+  'table.dataTable.display tbody tr.odd.selected',
+  'table.dataTable.display tbody tr.odd.selected > .sorting_1',
+  'table.dataTable.display tbody tr.odd.selected > .sorting_2',
+  'table.dataTable.display tbody tr.odd.selected > .sorting_3',
+  'table.dataTable.display tbody tr.selected',
+  'table.dataTable.display tbody tr.selected > .sorting_1',
+  'table.dataTable.display tbody tr.selected > .sorting_2',
+  'table.dataTable.display tbody tr.selected > .sorting_3',
+  'table.dataTable.hover tbody tr',
+  'table.dataTable.hover tbody tr.selected',
+  'table.dataTable.no-footer',
+  'table.dataTable.nowrap td',
+  'table.dataTable.nowrap th',
+  'table.dataTable.order-column tbody tr > .sorting_1',
+  'table.dataTable.order-column tbody tr > .sorting_2',
+  'table.dataTable.order-column tbody tr > .sorting_3',
+  'table.dataTable.order-column tbody tr.selected > .sorting_1',
+  'table.dataTable.order-column tbody tr.selected > .sorting_2',
+  'table.dataTable.order-column tbody tr.selected > .sorting_3',
+  'table.dataTable.order-column.hover tbody tr > .sorting_1',
+  'table.dataTable.order-column.hover tbody tr > .sorting_2',
+  'table.dataTable.order-column.hover tbody tr > .sorting_3',
+  'table.dataTable.order-column.hover tbody tr.selected > .sorting_1',
+  'table.dataTable.order-column.hover tbody tr.selected > .sorting_2',
+  'table.dataTable.order-column.hover tbody tr.selected > .sorting_3',
+  'table.dataTable.order-column.stripe tbody tr.even > .sorting_1',
+  'table.dataTable.order-column.stripe tbody tr.even > .sorting_2',
+  'table.dataTable.order-column.stripe tbody tr.even > .sorting_3',
+  'table.dataTable.order-column.stripe tbody tr.even.selected > .sorting_1',
+  'table.dataTable.order-column.stripe tbody tr.even.selected > .sorting_2',
+  'table.dataTable.order-column.stripe tbody tr.even.selected > .sorting_3',
+  'table.dataTable.order-column.stripe tbody tr.odd > .sorting_1',
+  'table.dataTable.order-column.stripe tbody tr.odd > .sorting_2',
+  'table.dataTable.order-column.stripe tbody tr.odd > .sorting_3',
+  'table.dataTable.order-column.stripe tbody tr.odd.selected > .sorting_1',
+  'table.dataTable.order-column.stripe tbody tr.odd.selected > .sorting_2',
+  'table.dataTable.order-column.stripe tbody tr.odd.selected > .sorting_3',
+  'table.dataTable.row-border tbody td',
+  'table.dataTable.row-border tbody th',
+  'table.dataTable.row-border tbody tr td',
+  'table.dataTable.row-border tbody tr th',
+  'table.dataTable.stripe tbody tr.odd',
+  'table.dataTable.stripe tbody tr.odd.selected',
+  'table.dialog',
+  'table.dialog td',
+  'table.dialog th',
+  'table.info-table',
+  'table.info-table td',
+  'table.info-table th',
+  'table.standardtable',
+  'table.standardtable td',
+  'table.standardtable th',
+  'tbody',
+  'td',
+  'textarea',
+  'tfoot',
+  'th',
+  'thead',
+  'time',
+  'tr',
+  'tt',
+  'u',
+  'ul',
+  'ul.testimonial-list .testimonial p',
+  'ul.testimonial-list .testimonial-name',
+  'ul.testimonial-list li',
+  'var',
+  'video'];
+pagespeed.criticalCssBeaconInit('/mod_pagespeed_beacon', 'https://www.newsinslowitalian.com/series/episode/387',
+    'Nmw-wha2sO', 'bZlve_UYaok', pagespeed.selectors);
+//]]></script>
+<noscript class="psa_add_styles">
+  <link
+    rel="stylesheet"
+    href="/assets/A.vendorstyles.44db58286491c10db65f398d67f64592.min.css.pagespeed.cf.zfSB_wzbMs.css"
+  >
+  <link
+    rel="stylesheet"
+    href="/assets/A.root.c2bdad3e512683d29bfe814922bd35d0.min.css.pagespeed.cf._HJPXBw6VQ.css"
+  >
+</noscript>
+<script data-pagespeed-no-defer>//<![CDATA[
+(function() {
+  function b() {
+    var a = window, c = e;
+    if (a.addEventListener) a.addEventListener('load', c, !1); else if (a.attachEvent) a.attachEvent('onload',
+        c); else {
+      var d = a.onload;
+      a.onload = function() {
+        c.call(this);
+        d && d.call(this);
+      };
+    }
+  };var f = !1;
+
+  function e() {
+    if (!f) {
+      f = !0;
+      for (var a = document.getElementsByClassName('psa_add_styles'), c = 0, d; d = a[c]; ++c) if ('NOSCRIPT' ==
+          d.nodeName) {
+        var k = document.createElement('div');
+        k.innerHTML = d.textContent;
+        document.body.appendChild(k);
+      }
+    }
+  }
+
+  function g() {
+    var a = window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame ||
+        window.oRequestAnimationFrame || window.msRequestAnimationFrame || null;
+    a ? a(function() {window.setTimeout(e, 0);}) : b();
+  }
+
+  var h = ['pagespeed', 'CriticalCssLoader', 'Run'], l = this;
+  h[0] in l || !l.execScript || l.execScript('var ' + h[0]);
+  for (var m; h.length && (m = h.shift());) h.length || void 0 === g ? l[m] ? l = l[m] : l = l[m] = {} : l[m] = g;
+})();
+pagespeed.CriticalCssLoader.Run();
+//]]></script>
+</body>
+</html>
