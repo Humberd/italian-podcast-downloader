@@ -1,5 +1,7 @@
 import com.github.salomonbrys.kotson.fromJson
 import com.google.gson.GsonBuilder
+import kotlinx.coroutines.coroutineScope
+import kotlinx.coroutines.launch
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import java.io.File
@@ -23,10 +25,14 @@ suspend fun main() {
 
 //    val twoThreadsDispatcher = Executors.newFixedThreadPool(2).asCoroutineDispatcher();
 
-    episodesNotYetDownloaded.forEach {
-        downloadEpisode(client, it)
-        it.isDownloaded = true
-        episodesFile.writeText(gson.toJson(episodes))
+    coroutineScope {
+        episodesNotYetDownloaded.forEach {
+            launch {
+                downloadEpisode(client, it)
+                it.isDownloaded = true
+                episodesFile.writeText(gson.toJson(episodes))
+            }
+        }
     }
 }
 
