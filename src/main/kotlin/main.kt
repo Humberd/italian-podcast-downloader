@@ -18,7 +18,7 @@ suspend fun main() {
 
     val episodes = gson.fromJson<List<Episode>>(episodesFile.reader())
     println("Total episodes: ${episodes.size}")
-    val episodesNotYetDownloaded = episodes.filter { !it.isDownloaded }
+    val episodesNotYetDownloaded = episodes.filter { !it.pdfDownloaded }
     println("Downloaded: ${episodes.size - episodesNotYetDownloaded.size}")
     println("Not downloaded: ${episodesNotYetDownloaded.size}")
 
@@ -29,7 +29,7 @@ suspend fun main() {
         episodesNotYetDownloaded.forEach {
             launch {
                 downloadEpisode(client, it)
-                it.isDownloaded = true
+                it.pdfDownloaded = true
                 episodesFile.writeText(gson.toJson(episodes))
             }
         }
@@ -39,6 +39,7 @@ suspend fun main() {
 fun downloadEpisode(client: OkHttpClient, episode: Episode) {
     println("Episode ${episode.episodeNumber} -> Downloading...")
     val request = Request.Builder()
+        .header("Cookie", "PHPSESSID=7n7d9fjgi2rk0fhmh4fdjq0i0l")
         .url("https://www.newsinslowitalian.com/intermediate-italian/pdf/${episode.episodeNumber}/episode.pdf")
         .build()
 
@@ -52,7 +53,7 @@ fun downloadEpisode(client: OkHttpClient, episode: Episode) {
 }
 
 fun createMp3File(episode: Episode, byteStream: InputStream) {
-    val file = File("episodes/files/${episode.episodeNumber}-${episode.year}.pdf")
+    val file = File("episodes/pdfs/${episode.episodeNumber}-${episode.year}.pdf")
     file.createNewFile()
 
     file.writeBytes(byteStream.readBytes())
