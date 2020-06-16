@@ -15,7 +15,7 @@ gradle-app.setting
 .idea
 episodes/files
 episodes/pdfs
-episodes/flashcards
+#episodes/flashcards
 #episodes/htmls
 
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
