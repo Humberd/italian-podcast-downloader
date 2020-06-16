@@ -39,20 +39,20 @@ suspend fun main() {
 fun downloadEpisode(client: OkHttpClient, episode: Episode) {
     println("Episode ${episode.episodeNumber} -> Downloading...")
     val request = Request.Builder()
-        .url("https://nsi-downloads.newsinslowitalian.com/${episode.year}/nsi${episode.episodeNumber}.mp3")
+        .url("https://www.newsinslowitalian.com/intermediate-italian/pdf/${episode.episodeNumber}/episode.pdf")
         .build()
 
     val response = client.newCall(request).execute()
     val body = response.body
 
     println("Episode ${episode.episodeNumber} -> Downloading Success! ${humanReadableByteCountSI(body!!.contentLength())}")
-    println("Episode ${episode.episodeNumber} -> Saving mp3...")
+    println("Episode ${episode.episodeNumber} -> Saving pdf...")
     createMp3File(episode, body.byteStream())
-    println("Episode ${episode.episodeNumber} -> Saving mp3 - Success!")
+    println("Episode ${episode.episodeNumber} -> Saving pdf - Success!")
 }
 
 fun createMp3File(episode: Episode, byteStream: InputStream) {
-    val file = File("episodes/files/${episode.episodeNumber}-${episode.year}.mp3")
+    val file = File("episodes/files/${episode.episodeNumber}-${episode.year}.pdf")
     file.createNewFile()
 
     file.writeBytes(byteStream.readBytes())
