@@ -14,7 +14,7 @@ gradle-app.setting
 
 .idea
 episodes/files
-episodes/pdfs
+#episodes/pdfs
 #episodes/flashcards
 #episodes/htmls
 
