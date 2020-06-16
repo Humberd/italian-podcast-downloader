@@ -14,6 +14,7 @@ dependencies {
     implementation("com.google.code.gson:gson:2.8.6")
     implementation("com.github.salomonbrys.kotson:kotson:2.5.0")
     implementation("com.squareup.okhttp3:okhttp:4.7.2")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.7")
 }
 
 tasks {
